@@ -1,0 +1,1365 @@
+<!DOCTYPE html>
+<html lang="id" data-theme="light">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Nusantara Artisan & Co. - Kreasi Otentik & Cita Rasa Terbaik UMKM</title>
+  <meta name="description" content="Katalog produk UMKM nusantara pilihan: kopi arabika single origin, camilan gurih tradisional, sambal rumahan, batik dan kerajinan tangan berkualitas tinggi. Pesan langsung via WhatsApp." />
+  <meta name="keywords" content="UMKM nusantara, produk lokal, kopi gayo, sambal cumi, batik tulis, kerajinan rotan, katalog produk statis" />
+  
+  <!-- Open Graph / Meta Medsos -->
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="Nusantara Artisan & Co. - Kreasi Otentik Produk Lokal" />
+  <meta property="og:description" content="Dukung pengrajin dan petani lokal nusantara dengan produk berkualitas premium. Belanja mudah langsung lewat WhatsApp." />
+  <meta property="og:image" content="https://images.unsplash.com/photo-1559056199-641a0ac8b55e?auto=format&fit=crop&w=1200&q=80" />
+
+  <!-- Font Awesome 6 Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <!-- Main Stylesheet -->
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+  <!-- ==========================================
+       HEADER & NAVIGATION
+       ========================================== -->
+  <header class="site-header" id="site-header">
+    <div class="container nav-container">
+      <a href="#beranda" class="brand-logo" id="brand-logo-link" title="Nusantara Artisan">
+        <div class="brand-icon-box" id="brand-logo-box">
+          <i class="fa-solid fa-leaf"></i>
+        </div>
+        <div class="brand-name">
+          <span class="brand-title store-name-text">Nusantara Artisan</span>
+          <span class="brand-subtitle store-tagline-text">Produk Lokal Juara</span>
+        </div>
+      </a>
+
+      <!-- Desktop & Mobile Nav Menu -->
+      <nav>
+        <ul class="nav-menu" id="nav-menu">
+          <li><a href="#beranda" class="nav-link active">Beranda</a></li>
+          <li><a href="#tentang" class="nav-link">Tentang Kami</a></li>
+          <li><a href="#katalog" class="nav-link">Katalog Produk</a></li>
+          <li><a href="#keunggulan" class="nav-link">Keunggulan</a></li>
+          <li><a href="#testimoni" class="nav-link">Testimoni</a></li>
+          <li><a href="#kontak" class="nav-link">Kontak & Lokasi</a></li>
+        </ul>
+      </nav>
+
+      <!-- Action Buttons -->
+      <div class="nav-actions">
+        <!-- Theme Toggle (Dark/Light) -->
+        <button class="btn-icon" id="theme-toggle-btn" title="Ubah Tema Gelap/Terang" aria-label="Toggle theme">
+          <i class="fa-solid fa-moon" id="theme-toggle-icon"></i>
+        </button>
+
+        <!-- Admin Quick Access (Tersembunyi dari publik, dibuka via shortcut / ?admin) -->
+        <button class="btn-icon" id="admin-trigger-header" style="display: none;" title="Kelola Toko (Admin Mode)" aria-label="Kelola Toko">
+          <i class="fa-solid fa-gear"></i>
+        </button>
+
+        <!-- Cart Button -->
+        <button class="btn btn-primary btn-sm cart-btn" id="cart-toggle-btn" aria-label="Keranjang Belanja">
+          <i class="fa-solid fa-cart-shopping"></i>
+          <span class="d-none-sm">Keranjang</span>
+          <span class="cart-badge" id="cart-badge" style="display: none;">0</span>
+        </button>
+
+        <!-- Mobile Menu Hamburger -->
+        <button class="btn-icon mobile-toggle" id="mobile-toggle-btn" aria-label="Buka Menu Navigasi">
+          <i class="fa-solid fa-bars"></i>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- MAIN CONTENT WRAPPER -->
+  <main>
+
+    <!-- ==========================================
+         HERO SECTION
+         ========================================== -->
+    <section class="hero-section" id="beranda">
+      <div class="hero-bg-glow"></div>
+      <div class="hero-bg-glow-2"></div>
+
+      <div class="container hero-grid">
+        <div class="hero-content">
+          <div class="hero-badge-wrap">
+            <span class="badge badge-primary" id="hero-badge-1">
+              <i class="fa-solid fa-certificate"></i> 100% Karya Asli Nusantara
+            </span>
+            <span class="badge badge-accent" id="hero-badge-2">
+              <i class="fa-solid fa-bolt"></i> Siap Kirim Hari Ini
+            </span>
+          </div>
+
+          <h1 class="hero-title">
+            <span id="hero-title-part1">Cita Rasa Otentik &</span> <br />
+            <span class="gradient-text" id="hero-title-part2">Kreasi Terbaik Lokal</span>
+          </h1>
+
+          <p class="hero-desc" id="hero-desc">
+            Menyajikan aneka produk berkualitas dari biji kopi arabika pilihan, camilan tradisional resep turun-temurun, hingga produk busana & kerajinan tangan bernilai seni tinggi karya pengrajin daerah.
+          </p>
+
+          <div class="hero-buttons">
+            <a href="#katalog" class="btn btn-primary btn-lg">
+              <i class="fa-solid fa-bag-shopping"></i> Jelajahi Produk
+            </a>
+            <a href="https://wa.me/6281234567890" target="_blank" class="btn btn-whatsapp btn-lg" id="hero-wa-btn">
+              <i class="fa-brands fa-whatsapp"></i> Chat WhatsApp
+            </a>
+          </div>
+
+          <!-- Hero Live Stats -->
+          <div class="hero-stats" id="hero-stats-container">
+            <!-- Dynamically populated from JS -->
+          </div>
+        </div>
+
+        <!-- Hero Showcase Card -->
+        <div class="hero-showcase">
+          <div id="hero-showcase-box">
+            <!-- Dynamically populated featured product card -->
+          </div>
+
+          <!-- Floating Micro Badge -->
+          <div class="floating-pill">
+            <div class="floating-pill-icon">
+              <i class="fa-brands fa-whatsapp"></i>
+            </div>
+            <div class="floating-pill-text">
+              <span class="floating-pill-title">Order Cepat & Mudah</span>
+              <span class="floating-pill-sub">Langsung Terhubung ke Penjual</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+    <!-- ==========================================
+         ABOUT US SECTION
+         ========================================== -->
+    <section class="section about-section" id="tentang">
+      <div class="container about-grid">
+        <div class="about-image-collage">
+          <img src="https://images.unsplash.com/photo-1544816155-12df9643f363?auto=format&fit=crop&w=900&q=80" alt="Pengrajin Lokal Nusantara" class="about-img-main" id="about-img-main" loading="lazy" />
+          <div class="about-card-stat">
+            <h4 id="about-stat-number">10+ Tahun</h4>
+            <p id="about-stat-label">Memberdayakan Komunitas Lokal</p>
+          </div>
+        </div>
+
+        <div class="about-content">
+          <span class="section-tag" id="about-tag">Tentang Kami</span>
+          <h3 id="about-title">Menghubungkan Karya Pengrajin Daerah Langsung ke Tangan Anda</h3>
+          <p id="about-p1">
+            Berawal dari kepedulian terhadap potensi melimpah hasil bumi dan seni kriya tanah air, <strong><span class="store-name-text">Nusantara Artisan</span></strong> hadir sebagai wadah kurasi produk-produk UMKM berkualitas unggul.
+          </p>
+          <p id="about-p2">
+            Kami memastikan setiap biji kopi disangrai dengan presisi, setiap camilan diproduksi secara higienis dengan bahan alami, serta setiap jahitan batik dan anyaman dibuat dengan ketelitian rasa seni tinggi.
+          </p>
+
+          <div class="about-features" id="about-features-container">
+            <!-- Dynamically populated from JS -->
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+    <!-- ==========================================
+         PRODUCT CATALOG (DYNAMIC FILTER & SEARCH)
+         ========================================== -->
+    <section class="section" id="katalog">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag">Katalog Pilihan</span>
+          <h2 class="section-title">Temukan Koleksi Favorit Anda</h2>
+          <p class="section-subtitle">
+            Pilih dari ragam produk otentik terbaik kami. Pesan langsung tanpa akun rumit lewat keranjang WhatsApp.
+          </p>
+        </div>
+
+        <!-- Filter & Search Toolbar -->
+        <div class="catalog-toolbar">
+          <!-- Search Box -->
+          <div class="search-box">
+            <i class="fa-solid fa-magnifying-glass search-icon"></i>
+            <input type="text" id="catalog-search-input" class="search-input" placeholder="Cari nama produk, kopi, sambal, batik..." />
+          </div>
+
+          <!-- Category Pills -->
+          <div class="catalog-filters" id="catalog-categories-pills">
+            <!-- Dynamically populated from JS -->
+          </div>
+
+          <!-- Sort Select -->
+          <div class="catalog-sort">
+            <select id="catalog-sort-select" class="sort-select" aria-label="Urutkan produk">
+              <option value="featured">Terlaris (Populer)</option>
+              <option value="price-asc">Harga Terendah</option>
+              <option value="price-desc">Harga Tertinggi</option>
+              <option value="name-asc">Nama (A - Z)</option>
+            </select>
+          </div>
+        </div>
+
+        <!-- Products Grid Container -->
+        <div class="products-grid" id="products-grid">
+          <!-- Dynamically populated from JS -->
+        </div>
+      </div>
+    </section>
+
+
+    <!-- ==========================================
+         VALUE PROPOSITION / KEUNGGULAN
+         ========================================== -->
+    <section class="section features-section" id="keunggulan">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag" id="whyus-tag">Mengapa Memilih Kami?</span>
+          <h2 class="section-title" id="whyus-title">Komitmen Kualitas & Pelayanan Terbaik</h2>
+          <p class="section-subtitle" id="whyus-subtitle">
+            Kenyamanan dan kepuasan Anda adalah prioritas utama kami dalam setiap transaksi.
+          </p>
+        </div>
+
+        <div class="features-grid" id="highlights-container">
+          <!-- Dynamically populated from JS -->
+        </div>
+      </div>
+    </section>
+
+
+    <!-- ==========================================
+         SPECIAL PROMO / HAMPERS BANNER
+         ========================================== -->
+    <section class="section" style="padding-top: 0;">
+      <div class="container">
+        <div class="cta-banner">
+          <div class="cta-content">
+            <span class="badge" id="promo-badge" style="background: rgba(255,255,255,0.2); color: #fff; margin-bottom: 0.75rem;">
+              🎁 Layanan Khusus UMKM
+            </span>
+            <h3 class="cta-title" id="promo-title">Butuh Paket Hampers, Souvenir Acara, atau Pesanan Jumlah Banyak?</h3>
+            <p class="cta-desc" id="promo-desc">
+              Kami melayani kustomisasi paket bingkisan hari raya, souvenir pernikahan etnik, serta paket corporate gift kantor dengan harga spesial grosir dan packaging premium berlogo Anda.
+            </p>
+            <div style="display: flex; gap: 1rem; flex-wrap: wrap;">
+              <a href="https://wa.me/6281234567890?text=Halo%20Nusantara%20Artisan,%20saya%20tertarik%20dengan%20paket%20Hampers%20/%20Souvenir%20Custom." target="_blank" class="cta-btn" id="promo-btn">
+                <i class="fa-brands fa-whatsapp"></i> <span id="promo-btn-text">Konsultasi Paket Custom</span>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+    <!-- ==========================================
+         TESTIMONIALS SECTION
+         ========================================== -->
+    <section class="section" id="testimoni">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag" id="testimonials-tag">Ulasan Pelanggan</span>
+          <h2 class="section-title" id="testimonials-title">Apa Kata Mereka yang Sudah Mencoba?</h2>
+          <p class="section-subtitle" id="testimonials-subtitle">
+            Cerita asli dari ribuan pelanggan yang telah menikmati produk dan layanan kami.
+          </p>
+        </div>
+
+        <div class="testimonials-grid" id="testimonials-grid">
+          <!-- Dynamically populated from JS -->
+        </div>
+
+        <div class="testimonial-cta-row">
+          <button class="btn btn-secondary" onclick="openReviewModal()">
+            <i class="fa-regular fa-comment-dots"></i> Bagikan Ulasan Anda Disini
+          </button>
+        </div>
+      </div>
+    </section>
+
+
+    <!-- ==========================================
+         CONTACT & LOCATION SECTION
+         ========================================== -->
+    <section class="section contact-section" id="kontak">
+      <div class="container contact-grid">
+        <!-- Contact Information & Map -->
+        <div class="contact-info-card">
+          <div>
+            <span class="section-tag" id="contact-tag">Hubungi Kami</span>
+            <h2 class="section-title" id="contact-title" style="margin-top: 0.5rem; text-align: left;">Kunjungi Toko atau Pesan Daring</h2>
+            <p id="contact-subtitle" style="color: var(--text-muted); margin-top: 0.5rem;">
+              Kami siap melayani kebutuhan informasi produk, pemesanan partai besar, atau sekadar silaturahmi langsung di gerai kami.
+            </p>
+          </div>
+
+          <div class="contact-item">
+            <div class="contact-item-icon">
+              <i class="fa-solid fa-location-dot"></i>
+            </div>
+            <div class="contact-item-content">
+              <h5>Alamat Toko & Workshop</h5>
+              <p id="contact-address">Jl. Malioboro No. 45, Kota Yogyakarta, D.I. Yogyakarta</p>
+            </div>
+          </div>
+
+          <div class="contact-item">
+            <div class="contact-item-icon">
+              <i class="fa-solid fa-clock"></i>
+            </div>
+            <div class="contact-item-content">
+              <h5>Jam Operasional</h5>
+              <p id="contact-hours">Senin - Sabtu: 08.00 - 21.00 WIB | Minggu: 09.00 - 18.00 WIB</p>
+            </div>
+          </div>
+
+          <div class="contact-item">
+            <div class="contact-item-icon">
+              <i class="fa-brands fa-whatsapp"></i>
+            </div>
+            <div class="contact-item-content">
+              <h5>WhatsApp Resmi</h5>
+              <p><a href="#" id="contact-phone" target="_blank" style="color: var(--primary); font-weight: 700;">+62 812-3456-7890</a></p>
+            </div>
+          </div>
+
+          <div class="contact-item">
+            <div class="contact-item-icon">
+              <i class="fa-solid fa-envelope"></i>
+            </div>
+            <div class="contact-item-content">
+              <h5>Email Pelanggan</h5>
+              <p><a href="#" id="contact-email">halo@nusantaraco.id</a></p>
+            </div>
+          </div>
+
+          <!-- Social Links -->
+          <div>
+            <h5 style="font-size: 0.95rem; font-weight: 700; margin-bottom: 0.5rem;">Ikuti Media Sosial Kami:</h5>
+            <div class="social-links" id="contact-social-row">
+              <!-- Dynamically populated from JS -->
+            </div>
+          </div>
+
+          <!-- Interactive Map -->
+          <div class="map-container">
+            <iframe id="contact-map-frame" title="Lokasi Gerai di Google Maps" src="about:blank" loading="lazy" allowfullscreen></iframe>
+          </div>
+        </div>
+
+        <!-- Direct WhatsApp Inquiry Form -->
+        <div class="contact-form-wrap">
+          <h3 class="contact-form-title" id="contact-form-title">Tanya Produk & Informasi</h3>
+          <p class="contact-form-subtitle" id="contact-form-subtitle">Tuliskan pesan Anda dan pesan akan otomatis diformat ke nomor WhatsApp Customer Service kami.</p>
+
+          <form id="contact-form">
+            <div class="form-group">
+              <label class="form-label" for="contact-name-input">Nama Anda</label>
+              <input type="text" id="contact-name-input" class="form-control" placeholder="Contoh: Sarah Aulia" required />
+            </div>
+
+            <div class="form-group">
+              <label class="form-label" for="contact-phone-input">Nomor WhatsApp</label>
+              <input type="tel" id="contact-phone-input" class="form-control" placeholder="Contoh: 08123456789" required />
+            </div>
+
+            <div class="form-group">
+              <label class="form-label" for="contact-msg-input">Pertanyaan atau Pesan</label>
+              <textarea id="contact-msg-input" class="form-control" placeholder="Contoh: Apakah kopi gayo bisa digiling halus untuk espresso?..." required></textarea>
+            </div>
+
+            <button type="submit" class="btn btn-whatsapp" style="width: 100%;">
+              <i class="fa-brands fa-whatsapp"></i> Kirim Pesan via WhatsApp
+            </button>
+          </form>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+
+  <!-- ==========================================
+       FOOTER
+       ========================================== -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-col">
+          <div class="brand-logo">
+            <div class="brand-icon-box" id="footer-logo-box">
+              <i class="fa-solid fa-leaf"></i>
+            </div>
+            <span class="store-name-text">Nusantara Artisan</span>
+          </div>
+          <p style="font-size: 0.9rem; color: var(--text-muted); line-height: 1.6;">
+            Platform etalase digital UMKM tanpa database server. Mengutamakan kecepatan, kemudahan transaksi, dan dukungan penuh terhadap pengrajin lokal tanah air.
+          </p>
+        </div>
+
+        <div class="footer-col">
+          <h5>Menu Cepat</h5>
+          <ul>
+            <li><a href="#beranda">Beranda</a></li>
+            <li><a href="#tentang">Tentang Kami</a></li>
+            <li><a href="#katalog">Katalog Produk</a></li>
+            <li><a href="#keunggulan">Keunggulan Layanan</a></li>
+            <li><a href="#testimoni">Ulasan Pelanggan</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-col">
+          <h5>Kategori Produk</h5>
+          <ul>
+            <li><a href="#katalog">Kopi Nusantara</a></li>
+            <li><a href="#katalog">Camilan Tradisional</a></li>
+            <li><a href="#katalog">Sambal Khas Daerah</a></li>
+            <li><a href="#katalog">Kerajinan Etnik Bali & Jawa</a></li>
+            <li><a href="#katalog">Batik Tulis & Tenun Ikat</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-col">
+          <h5>Dukungan Pembayaran</h5>
+          <p style="font-size: 0.88rem; color: var(--text-muted); line-height: 1.6;">
+            Mendukung pembayaran aman via Transfer Bank (BCA, Mandiri, BRI, BNI), QRIS All Payment, serta Bayar di Tempat (COD) untuk kurir tertentu.
+          </p>
+          <div style="display: flex; gap: 0.5rem; font-size: 1.5rem; color: var(--text-subtle); margin-top: 0.5rem;">
+            <i class="fa-solid fa-credit-card" title="Transfer Bank"></i>
+            <i class="fa-solid fa-qrcode" title="QRIS"></i>
+            <i class="fa-solid fa-hand-holding-dollar" title="COD Bayar di Tempat"></i>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <div>
+          &copy; 2026 <strong class="store-name-text">Nusantara Artisan & Co.</strong> Hak Cipta Dilindungi. Dibuat untuk Kemajuan UMKM Indonesia.
+        </div>
+        <div>
+          <!-- Admin Stealth Trigger in Footer (Disamarkan dari publik) -->
+          <button class="admin-trigger-link" id="admin-trigger-footer" title="Admin Access" style="opacity: 0.15; border: none; background: transparent; padding: 2px 6px; cursor: pointer;">
+            <i class="fa-solid fa-lock"></i>
+          </button>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+
+  <!-- ==========================================
+       CART OFF-CANVAS DRAWER
+       ========================================== -->
+  <aside class="cart-drawer" id="cart-drawer" aria-label="Keranjang Belanja">
+    <div class="cart-header">
+      <h3><i class="fa-solid fa-basket-shopping" style="color: var(--primary);"></i> Keranjang Belanja</h3>
+      <button class="close-btn" id="cart-close-btn" aria-label="Tutup Keranjang">
+        <i class="fa-solid fa-xmark"></i>
+      </button>
+    </div>
+
+    <!-- Items list -->
+    <div class="cart-body">
+      <div id="cart-items-list">
+        <!-- Rendered by JS -->
+      </div>
+
+      <!-- Checkout Details Form -->
+      <div class="cart-checkout-box" id="cart-checkout-form-box" style="display: none;">
+        <h4><i class="fa-solid fa-clipboard-user"></i> Data Pemesanan:</h4>
+        
+        <div>
+          <label class="form-label" style="font-size: 0.8rem;" for="checkout-name">Nama Pemesan *</label>
+          <input type="text" id="checkout-name" class="form-control" placeholder="Contoh: Rian Anggara" style="padding: 0.5rem 0.75rem;" required />
+        </div>
+
+        <div>
+          <label class="form-label" style="font-size: 0.8rem;" for="checkout-phone">Nomor WhatsApp *</label>
+          <input type="tel" id="checkout-phone" class="form-control" placeholder="Contoh: 08123456789" style="padding: 0.5rem 0.75rem;" required />
+        </div>
+
+        <div>
+          <label class="form-label" style="font-size: 0.8rem;" for="checkout-delivery-type">Opsi Pengiriman</label>
+          <select id="checkout-delivery-type" class="form-control" style="padding: 0.5rem 0.75rem;">
+            <option value="Kirim ke Alamat">Kirim ke Alamat via Kurir / Ekspedisi</option>
+            <option value="Ambil Langsung di Toko">Ambil Langsung di Toko (Pick Up)</option>
+          </select>
+        </div>
+
+        <div>
+          <label class="form-label" style="font-size: 0.8rem;" for="checkout-address">Alamat Pengiriman Lengkap</label>
+          <input type="text" id="checkout-address" class="form-control" placeholder="Jl. Mawar No. 12, Kel..., Kota..." style="padding: 0.5rem 0.75rem;" />
+        </div>
+
+        <div>
+          <label class="form-label" style="font-size: 0.8rem;" for="checkout-payment-method">Pilihan Pembayaran</label>
+          <select id="checkout-payment-method" class="form-control" style="padding: 0.5rem 0.75rem;">
+            <option value="Transfer Bank (BCA / Mandiri / BRI / BNI)">Transfer Bank (BCA / Mandiri / BRI / BNI)</option>
+            <option value="QRIS (Semua E-Wallet / M-Banking)">QRIS (Gopay, OVO, Dana, ShopeePay, dll)</option>
+            <option value="Bayar di Tempat (COD)">Bayar di Tempat (COD)</option>
+          </select>
+        </div>
+
+        <div>
+          <label class="form-label" style="font-size: 0.8rem;" for="checkout-notes">Catatan Khusus (Opsional)</label>
+          <input type="text" id="checkout-notes" class="form-control" placeholder="Contoh: Biji kopi digiling halus, sambal dipacking bubble ekstra..." style="padding: 0.5rem 0.75rem;" />
+        </div>
+      </div>
+    </div>
+
+    <!-- Summary & Order CTA -->
+    <div class="cart-footer" id="cart-drawer-footer" style="display: none;">
+      <div class="cart-summary-row">
+        <span>Subtotal Produk:</span>
+        <span id="cart-subtotal-text">Rp 0</span>
+      </div>
+      <div class="cart-summary-row" style="font-size: 0.82rem; color: var(--primary);">
+        <span>Ongkir:</span>
+        <span>Dikonfirmasi via WhatsApp</span>
+      </div>
+      <div class="cart-total-row">
+        <span>Total:</span>
+        <span id="cart-total-text" style="color: var(--primary);">Rp 0</span>
+      </div>
+      <button class="btn btn-whatsapp" id="cart-checkout-btn" style="width: 100%;">
+        <i class="fa-brands fa-whatsapp"></i> Kirim Pesanan via WhatsApp
+      </button>
+    </div>
+  </aside>
+
+
+  <!-- ==========================================
+       PRODUCT DETAIL MODAL
+       ========================================== -->
+  <div class="modal modal-product-detail" id="product-detail-modal" role="dialog" aria-modal="true">
+    <div class="modal-header">
+      <h4>Detail Produk</h4>
+      <button class="close-btn" onclick="closeProductDetailModal()">
+        <i class="fa-solid fa-xmark"></i>
+      </button>
+    </div>
+    <div class="modal-body" id="product-detail-modal-body">
+      <!-- Populated by JS -->
+    </div>
+  </div>
+
+
+  <!-- ==========================================
+       REVIEW SUBMISSION MODAL
+       ========================================== -->
+  <div class="modal" id="review-modal" role="dialog" aria-modal="true">
+    <div class="modal-header">
+      <h4>Tulis Ulasan & Pengalaman Anda</h4>
+      <button class="close-btn" onclick="closeModal(document.getElementById('review-modal'))">
+        <i class="fa-solid fa-xmark"></i>
+      </button>
+    </div>
+    <form id="review-form">
+      <div class="modal-body">
+        <div class="form-group">
+          <label class="form-label" for="review-author-name">Nama Anda</label>
+          <input type="text" id="review-author-name" class="form-control" placeholder="Contoh: Anisa Rahma" required />
+        </div>
+        <div class="form-group">
+          <label class="form-label" for="review-author-city">Kota / Asal</label>
+          <input type="text" id="review-author-city" class="form-control" placeholder="Contoh: Denpasar, Bali" />
+        </div>
+        <div class="form-group">
+          <label class="form-label" for="review-rating-select">Penilaian (Bintang)</label>
+          <select id="review-rating-select" class="form-control">
+            <option value="5">★★★★★ (5 Bintang - Luar Biasa)</option>
+            <option value="4">★★★★☆ (4 Bintang - Sangat Bagus)</option>
+            <option value="3">★★★☆☆ (3 Bintang - Cukup)</option>
+          </select>
+        </div>
+        <div class="form-group">
+          <label class="form-label" for="review-comment">Ulasan Produk</label>
+          <textarea id="review-comment" class="form-control" placeholder="Bagikan kesan Anda tentang rasa, kemasan, atau layanan pengiriman..." required></textarea>
+        </div>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" onclick="closeModal(document.getElementById('review-modal'))">Batal</button>
+        <button type="submit" class="btn btn-primary">Kirim Ulasan</button>
+      </div>
+    </form>
+  </div>
+
+
+  <!-- ==========================================
+       ADMIN AUTH PIN MODAL
+       ========================================== -->
+  <div class="modal" id="admin-pin-modal" style="max-width: 400px;" role="dialog" aria-modal="true">
+    <div class="modal-header">
+      <h4><i class="fa-solid fa-shield-halved" style="color: var(--primary);"></i> Akses Admin Toko</h4>
+      <button class="close-btn" onclick="closeModal(document.getElementById('admin-pin-modal'))">
+        <i class="fa-solid fa-xmark"></i>
+      </button>
+    </div>
+    <form id="admin-pin-form">
+      <div class="modal-body">
+        <p style="font-size: 0.88rem; color: var(--text-muted); margin-bottom: 1rem;">
+          Masukkan PIN Keamanan untuk mengelola produk dan informasi toko. <em>(PIN default: <code>1234</code>)</em>
+        </p>
+        <div class="form-group">
+          <label class="form-label" for="admin-pin-input">PIN Admin</label>
+          <input type="password" id="admin-pin-input" class="form-control" placeholder="Masukkan 4 digit PIN..." maxlength="8" required />
+        </div>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" onclick="closeModal(document.getElementById('admin-pin-modal'))">Batal</button>
+        <button type="submit" class="btn btn-primary"><i class="fa-solid fa-unlock"></i> Masuk Panel</button>
+      </div>
+    </form>
+  </div>
+
+
+  <!-- ==========================================
+       ADMIN FULL CMS MODAL (NO-DATABASE CMS)
+       ========================================== -->
+  <div class="modal modal-admin" id="admin-modal" role="dialog" aria-modal="true">
+    <div class="modal-header">
+      <div style="display: flex; align-items: center; gap: 0.75rem;">
+        <div class="brand-icon-box" style="width: 32px; height: 32px; font-size: 0.9rem;">
+          <i class="fa-solid fa-sliders"></i>
+        </div>
+        <div>
+          <h4 style="margin: 0; font-size: 1.15rem;">Panel Kelola UMKM (Static CMS)</h4>
+          <span style="font-size: 0.75rem; color: var(--primary); font-weight: 600;">100% Client-Side • Siap GitHub Pages</span>
+        </div>
+      </div>
+      <div style="display: flex; align-items: center; gap: 0.6rem;">
+        <button type="button" class="btn btn-secondary btn-sm" id="admin-logout-btn" style="color: #ef4444; border-color: rgba(239, 68, 68, 0.35); padding: 0.35rem 0.75rem; font-size: 0.8rem; display: inline-flex; align-items: center; gap: 0.4rem;" title="Keluar dari sesi Admin">
+          <i class="fa-solid fa-right-from-bracket"></i> Logout
+        </button>
+        <button class="close-btn" onclick="closeModal(document.getElementById('admin-modal'))" title="Tutup Panel">
+          <i class="fa-solid fa-xmark"></i>
+        </button>
+      </div>
+    </div>
+
+    <!-- Admin Navigation Tabs -->
+    <div class="admin-tabs">
+      <button class="admin-tab-btn active" data-tab="profile">
+        <i class="fa-solid fa-store"></i> Profil & Logo
+      </button>
+      <button class="admin-tab-btn" data-tab="content">
+        <i class="fa-solid fa-pen-to-square"></i> Konten Halaman
+      </button>
+      <button class="admin-tab-btn" data-tab="products">
+        <i class="fa-solid fa-boxes-stacked"></i> Kelola Produk
+      </button>
+      <button class="admin-tab-btn" data-tab="testimonials">
+        <i class="fa-solid fa-comments"></i> Ulasan
+      </button>
+      <button class="admin-tab-btn" data-tab="publish">
+        <i class="fa-brands fa-github"></i> Publish ke GitHub Pages
+      </button>
+    </div>
+
+    <div class="modal-body" style="padding-top: 1.25rem;">
+      <!-- TAB 1: PROFIL USAHA -->
+      <div class="admin-tab-content active" id="tab-profile">
+        <form id="admin-profile-form">
+          <!-- SECTION LOGO BRAND -->
+          <div style="background: var(--bg-subtle); padding: 1.25rem; border-radius: var(--radius-md); border: 1px solid var(--border-color); margin-bottom: 1.25rem;">
+            <div style="display: flex; align-items: center; justify-content: space-between; margin-bottom: 0.75rem;">
+              <h5 style="font-weight: 700; margin: 0; font-size: 0.95rem;">
+                <i class="fa-solid fa-palette" style="color: var(--primary);"></i> Pengaturan Logo Usaha
+              </h5>
+              <div style="display: flex; align-items: center; gap: 0.5rem;">
+                <span style="font-size: 0.75rem; color: var(--text-muted);">Preview:</span>
+                <div class="brand-icon-box" id="adm-logo-preview" style="width: 36px; height: 36px; font-size: 1rem;">
+                  <i class="fa-solid fa-leaf"></i>
+                </div>
+              </div>
+            </div>
+
+            <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 1rem; margin-bottom: 0.75rem;">
+              <div class="form-group" style="margin-bottom: 0;">
+                <label class="form-label" for="adm-logo-type">Tipe Logo</label>
+                <select id="adm-logo-type" class="form-control">
+                  <option value="icon">Icon FontAwesome</option>
+                  <option value="image">Gambar / Foto Logo Sendiri</option>
+                </select>
+              </div>
+              <div class="form-group" style="margin-bottom: 0;" id="adm-logo-icon-wrap">
+                <label class="form-label" for="adm-logo-icon">Pilih Simbol Icon</label>
+                <select id="adm-logo-icon" class="form-control">
+                  <option value="fa-solid fa-leaf">🌿 Daun Alami (fa-leaf)</option>
+                  <option value="fa-solid fa-mug-hot">☕ Cangkir Kopi / Cafe (fa-mug-hot)</option>
+                  <option value="fa-solid fa-utensils">🍴 Kuliner & Resto (fa-utensils)</option>
+                  <option value="fa-solid fa-shirt">👕 Batik & Fashion (fa-shirt)</option>
+                  <option value="fa-solid fa-gem">💎 Kerajinan & Artisan (fa-gem)</option>
+                  <option value="fa-solid fa-bag-shopping">🛍️ Tas Belanja (fa-bag-shopping)</option>
+                  <option value="fa-solid fa-store">🏪 Ruko / Toko (fa-store)</option>
+                  <option value="fa-solid fa-crown">👑 Mahkota Premium (fa-crown)</option>
+                  <option value="fa-solid fa-star">⭐ Bintang Kualitas (fa-star)</option>
+                  <option value="fa-solid fa-fire">🔥 Hot / Sambal (fa-fire)</option>
+                </select>
+              </div>
+            </div>
+
+            <div id="adm-logo-image-wrap" style="display: none;">
+              <div class="form-group">
+                <label class="form-label" for="adm-logo-image-url">URL Gambar Logo (Opsional)</label>
+                <input type="text" id="adm-logo-image-url" class="form-control" placeholder="https://domain.com/logo.png" />
+              </div>
+              <div class="form-group" style="margin-bottom: 0;">
+                <label class="form-label" for="adm-logo-file">Atau Upload Logo dari Komputer:</label>
+                <input type="file" id="adm-logo-file" accept="image/*" class="form-control" style="padding: 0.4rem;" />
+                <small style="color: var(--text-muted); font-size: 0.72rem;">*Disarankan PNG transparan atau SVG. Otomatis tersimpan secara offline di browser.</small>
+              </div>
+            </div>
+          </div>
+
+          <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 1rem;">
+            <div class="form-group">
+              <label class="form-label" for="adm-store-name">Nama Usaha / Toko</label>
+              <input type="text" id="adm-store-name" class="form-control" required />
+            </div>
+            <div class="form-group">
+              <label class="form-label" for="adm-tagline">Tagline / Slogan</label>
+              <input type="text" id="adm-tagline" class="form-control" required />
+            </div>
+          </div>
+
+          <div class="form-group">
+            <label class="form-label" for="adm-desc">Deskripsi Singkat Usaha</label>
+            <textarea id="adm-desc" class="form-control" rows="2" required></textarea>
+          </div>
+
+          <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 1rem;">
+            <div class="form-group">
+              <label class="form-label" for="adm-phone">Nomor WhatsApp Toko (Awali 62)</label>
+              <input type="text" id="adm-phone" class="form-control" placeholder="628123456789" required />
+              <small style="color: var(--text-muted); font-size: 0.75rem;">Gunakan format negara (contoh: 6281234567890)</small>
+            </div>
+            <div class="form-group">
+              <label class="form-label" for="adm-email">Email Bisnis</label>
+              <input type="email" id="adm-email" class="form-control" required />
+            </div>
+          </div>
+
+          <div class="form-group">
+            <label class="form-label" for="adm-address">Alamat Toko Lengkap</label>
+            <input type="text" id="adm-address" class="form-control" required />
+          </div>
+
+          <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 1rem;">
+            <div class="form-group">
+              <label class="form-label" for="adm-hours">Jam Operasional</label>
+              <input type="text" id="adm-hours" class="form-control" required />
+            </div>
+            <div class="form-group">
+              <label class="form-label" for="adm-maps">Link Embed Google Maps</label>
+              <input type="text" id="adm-maps" class="form-control" />
+            </div>
+          </div>
+
+          <!-- SECTION GANTI PIN ADMIN -->
+          <div style="background: var(--bg-subtle); padding: 1.25rem; border-radius: var(--radius-md); border: 1px solid var(--border-color); margin: 1.25rem 0;">
+            <h5 style="font-weight: 700; margin-bottom: 0.35rem; font-size: 0.95rem;">
+              <i class="fa-solid fa-key" style="color: var(--primary);"></i> Keamanan & Ganti PIN Admin
+            </h5>
+            <p style="font-size: 0.8rem; color: var(--text-muted); margin-bottom: 0.75rem;">
+              PIN ini digunakan untuk login ke panel admin ini. Kosongkan jika Anda tidak ingin mengganti PIN saat ini.
+            </p>
+            <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 1rem;">
+              <div class="form-group" style="margin-bottom: 0;">
+                <label class="form-label" for="adm-new-pin">PIN Baru (Angka / Huruf)</label>
+                <input type="password" id="adm-new-pin" class="form-control" placeholder="Ketik PIN baru..." maxlength="16" autocomplete="new-password" />
+              </div>
+              <div class="form-group" style="margin-bottom: 0;">
+                <label class="form-label" for="adm-confirm-pin">Konfirmasi PIN Baru</label>
+                <input type="password" id="adm-confirm-pin" class="form-control" placeholder="Ketik ulang PIN baru..." maxlength="16" autocomplete="new-password" />
+              </div>
+            </div>
+          </div>
+
+          <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 1rem;">
+            <div class="form-group">
+              <label class="form-label" for="adm-instagram">Link Instagram</label>
+              <input type="url" id="adm-instagram" class="form-control" placeholder="https://instagram.com/..." />
+            </div>
+            <div class="form-group">
+              <label class="form-label" for="adm-tiktok">Link TikTok</label>
+              <input type="url" id="adm-tiktok" class="form-control" placeholder="https://tiktok.com/@..." />
+            </div>
+          </div>
+
+          <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 1rem;">
+            <div class="form-group">
+              <label class="form-label" for="adm-shopee">Link Toko Shopee</label>
+              <input type="url" id="adm-shopee" class="form-control" placeholder="https://shopee.co.id/..." />
+            </div>
+            <div class="form-group">
+              <label class="form-label" for="adm-tokopedia">Link Toko Tokopedia</label>
+              <input type="url" id="adm-tokopedia" class="form-control" placeholder="https://tokopedia.com/..." />
+            </div>
+          </div>
+
+          <button type="submit" class="btn btn-primary" style="margin-top: 0.5rem;">
+            <i class="fa-solid fa-floppy-disk"></i> Simpan Perubahan Profil
+          </button>
+        </form>
+      </div>
+
+      <!-- TAB KONTEN HALAMAN (CMS DINAMIS) -->
+      <div class="admin-tab-content" id="tab-content">
+        <form id="admin-content-form">
+          <!-- 1. EDIT TENTANG KAMI -->
+          <div style="background: var(--bg-subtle); padding: 1.25rem; border-radius: var(--radius-lg); border: 1px solid var(--border-color); margin-bottom: 1.5rem;">
+            <h4 style="font-size: 1.05rem; font-weight: 700; margin-bottom: 1rem; color: var(--primary);">
+              <i class="fa-solid fa-address-card"></i> 1. Bagian "Tentang Kami" (About Us)
+            </h4>
+
+            <div style="display: grid; grid-template-columns: 1fr 2fr; gap: 1rem;">
+              <div class="form-group">
+                <label class="form-label" for="adm-about-tag">Tagline Atas</label>
+                <input type="text" id="adm-about-tag" class="form-control" placeholder="Tentang Kami" required />
+              </div>
+              <div class="form-group">
+                <label class="form-label" for="adm-about-title">Judul Utama Tentang Kami</label>
+                <input type="text" id="adm-about-title" class="form-control" placeholder="Menghubungkan Karya Pengrajin Daerah..." required />
+              </div>
+            </div>
+
+            <div class="form-group">
+              <label class="form-label" for="adm-about-p1">Paragraf Cerita 1</label>
+              <textarea id="adm-about-p1" class="form-control" rows="2" required></textarea>
+            </div>
+
+            <div class="form-group">
+              <label class="form-label" for="adm-about-p2">Paragraf Cerita 2</label>
+              <textarea id="adm-about-p2" class="form-control" rows="2" required></textarea>
+            </div>
+
+            <div style="display: grid; grid-template-columns: 1fr 2fr; gap: 1rem;">
+              <div class="form-group">
+                <label class="form-label" for="adm-about-stat-num">Badge Angka (Pengalaman)</label>
+                <input type="text" id="adm-about-stat-num" class="form-control" placeholder="10+ Tahun" required />
+              </div>
+              <div class="form-group">
+                <label class="form-label" for="adm-about-stat-text">Badge Keterangan</label>
+                <input type="text" id="adm-about-stat-text" class="form-control" placeholder="Memberdayakan Komunitas Lokal" required />
+              </div>
+            </div>
+
+            <div class="form-group">
+              <label class="form-label" for="adm-about-image">Link Foto Tentang Kami (URL)</label>
+              <input type="text" id="adm-about-image" class="form-control" placeholder="https://images.unsplash.com/..." />
+            </div>
+            <div class="form-group" style="margin-top: -0.5rem; margin-bottom: 1.25rem;">
+              <label class="form-label" style="font-size: 0.8rem; color: var(--text-muted);" for="adm-about-image-file">Atau Upload Foto dari Komputer:</label>
+              <input type="file" id="adm-about-image-file" accept="image/*" class="form-control" style="padding: 0.4rem;" />
+            </div>
+
+            <h5 style="font-size: 0.95rem; font-weight: 700; margin: 1rem 0 0.5rem;">4 Pilar Keunggulan Bahan (Tentang Kami):</h5>
+            <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 1rem;">
+              <div class="form-group" style="margin-bottom: 0.5rem;">
+                <label class="form-label" style="font-size: 0.8rem;">Pilar 1 (Ikon, Judul & Deskripsi)</label>
+                <div style="display: grid; grid-template-columns: 1fr 2fr; gap: 0.4rem; margin-bottom: 0.3rem;">
+                  <input type="text" id="adm-about-f1-icon" class="form-control" placeholder="fa-solid fa-seedling" title="Ikon FontAwesome" />
+                  <input type="text" id="adm-about-f1-title" class="form-control" placeholder="Bahan Alami Pilihan" />
+                </div>
+                <input type="text" id="adm-about-f1-desc" class="form-control" placeholder="Tanpa bahan kimia berbahaya..." />
+              </div>
+              <div class="form-group" style="margin-bottom: 0.5rem;">
+                <label class="form-label" style="font-size: 0.8rem;">Pilar 2 (Ikon, Judul & Deskripsi)</label>
+                <div style="display: grid; grid-template-columns: 1fr 2fr; gap: 0.4rem; margin-bottom: 0.3rem;">
+                  <input type="text" id="adm-about-f2-icon" class="form-control" placeholder="fa-solid fa-hand-holding-heart" title="Ikon FontAwesome" />
+                  <input type="text" id="adm-about-f2-title" class="form-control" placeholder="Fair Trade / Adil" />
+                </div>
+                <input type="text" id="adm-about-f2-desc" class="form-control" placeholder="Mendukung langsung petani..." />
+              </div>
+              <div class="form-group" style="margin-bottom: 0.5rem;">
+                <label class="form-label" style="font-size: 0.8rem;">Pilar 3 (Ikon, Judul & Deskripsi)</label>
+                <div style="display: grid; grid-template-columns: 1fr 2fr; gap: 0.4rem; margin-bottom: 0.3rem;">
+                  <input type="text" id="adm-about-f3-icon" class="form-control" placeholder="fa-solid fa-box-archive" title="Ikon FontAwesome" />
+                  <input type="text" id="adm-about-f3-title" class="form-control" placeholder="Quality Control Ketat" />
+                </div>
+                <input type="text" id="adm-about-f3-desc" class="form-control" placeholder="Setiap paket dipastikan aman..." />
+              </div>
+              <div class="form-group" style="margin-bottom: 0.5rem;">
+                <label class="form-label" style="font-size: 0.8rem;">Pilar 4 (Ikon, Judul & Deskripsi)</label>
+                <div style="display: grid; grid-template-columns: 1fr 2fr; gap: 0.4rem; margin-bottom: 0.3rem;">
+                  <input type="text" id="adm-about-f4-icon" class="form-control" placeholder="fa-solid fa-shield-halved" title="Ikon FontAwesome" />
+                  <input type="text" id="adm-about-f4-title" class="form-control" placeholder="Halal & Bersertifikat" />
+                </div>
+                <input type="text" id="adm-about-f4-desc" class="form-control" placeholder="Legalitas izin edar terjamin..." />
+              </div>
+            </div>
+          </div>
+
+          <!-- 2. EDIT MENGAPA MEMILIH KAMI (KEUNGGULAN) -->
+          <div style="background: var(--bg-subtle); padding: 1.25rem; border-radius: var(--radius-lg); border: 1px solid var(--border-color); margin-bottom: 1.5rem;">
+            <h4 style="font-size: 1.05rem; font-weight: 700; margin-bottom: 1rem; color: var(--primary);">
+              <i class="fa-solid fa-award"></i> 2. Bagian "Mengapa Memilih Kami?" (Keunggulan)
+            </h4>
+
+            <div style="display: grid; grid-template-columns: 1fr 2fr; gap: 1rem;">
+              <div class="form-group">
+                <label class="form-label" for="adm-whyus-tag">Tagline Atas</label>
+                <input type="text" id="adm-whyus-tag" class="form-control" placeholder="Mengapa Memilih Kami?" required />
+              </div>
+              <div class="form-group">
+                <label class="form-label" for="adm-whyus-title">Judul Utama</label>
+                <input type="text" id="adm-whyus-title" class="form-control" placeholder="Komitmen Kualitas & Pelayanan Terbaik" required />
+              </div>
+            </div>
+
+            <div class="form-group">
+              <label class="form-label" for="adm-whyus-subtitle">Sub-judul / Penjelasan</label>
+              <input type="text" id="adm-whyus-subtitle" class="form-control" placeholder="Kenyamanan dan kepuasan Anda..." required />
+            </div>
+
+            <h5 style="font-size: 0.95rem; font-weight: 700; margin: 1rem 0 0.5rem;">4 Kartu Keunggulan:</h5>
+            <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 1rem;">
+              <div style="background: var(--bg-surface); padding: 0.85rem; border-radius: var(--radius-md); border: 1px solid var(--border-color);">
+                <label class="form-label" style="font-size: 0.8rem; font-weight: 700;">Keunggulan 1</label>
+                <div style="display: grid; grid-template-columns: 1fr 2fr; gap: 0.4rem; margin-bottom: 0.35rem;">
+                  <input type="text" id="adm-whyus-i1-icon" class="form-control" placeholder="fa-solid fa-shield-halved" title="Ikon FontAwesome" />
+                  <input type="text" id="adm-whyus-i1-title" class="form-control" placeholder="Judul 1" />
+                </div>
+                <textarea id="adm-whyus-i1-desc" class="form-control" rows="2" placeholder="Deskripsi..."></textarea>
+              </div>
+              <div style="background: var(--bg-surface); padding: 0.85rem; border-radius: var(--radius-md); border: 1px solid var(--border-color);">
+                <label class="form-label" style="font-size: 0.8rem; font-weight: 700;">Keunggulan 2</label>
+                <div style="display: grid; grid-template-columns: 1fr 2fr; gap: 0.4rem; margin-bottom: 0.35rem;">
+                  <input type="text" id="adm-whyus-i2-icon" class="form-control" placeholder="fa-solid fa-truck-fast" title="Ikon FontAwesome" />
+                  <input type="text" id="adm-whyus-i2-title" class="form-control" placeholder="Judul 2" />
+                </div>
+                <textarea id="adm-whyus-i2-desc" class="form-control" rows="2" placeholder="Deskripsi..."></textarea>
+              </div>
+              <div style="background: var(--bg-surface); padding: 0.85rem; border-radius: var(--radius-md); border: 1px solid var(--border-color);">
+                <label class="form-label" style="font-size: 0.8rem; font-weight: 700;">Keunggulan 3</label>
+                <div style="display: grid; grid-template-columns: 1fr 2fr; gap: 0.4rem; margin-bottom: 0.35rem;">
+                  <input type="text" id="adm-whyus-i3-icon" class="form-control" placeholder="fa-solid fa-hand-holding-heart" title="Ikon FontAwesome" />
+                  <input type="text" id="adm-whyus-i3-title" class="form-control" placeholder="Judul 3" />
+                </div>
+                <textarea id="adm-whyus-i3-desc" class="form-control" rows="2" placeholder="Deskripsi..."></textarea>
+              </div>
+              <div style="background: var(--bg-surface); padding: 0.85rem; border-radius: var(--radius-md); border: 1px solid var(--border-color);">
+                <label class="form-label" style="font-size: 0.8rem; font-weight: 700;">Keunggulan 4</label>
+                <div style="display: grid; grid-template-columns: 1fr 2fr; gap: 0.4rem; margin-bottom: 0.35rem;">
+                  <input type="text" id="adm-whyus-i4-icon" class="form-control" placeholder="fa-brands fa-whatsapp" title="Ikon FontAwesome" />
+                  <input type="text" id="adm-whyus-i4-title" class="form-control" placeholder="Judul 4" />
+                </div>
+                <textarea id="adm-whyus-i4-desc" class="form-control" rows="2" placeholder="Deskripsi..."></textarea>
+              </div>
+            </div>
+          </div>
+
+          <!-- 3. EDIT BANNER PROMO / HAMPERS -->
+          <div style="background: var(--bg-subtle); padding: 1.25rem; border-radius: var(--radius-lg); border: 1px solid var(--border-color); margin-bottom: 1.5rem;">
+            <h4 style="font-size: 1.05rem; font-weight: 700; margin-bottom: 1rem; color: var(--primary);">
+              <i class="fa-solid fa-gift"></i> 3. Banner Promosi Khusus / Hampers
+            </h4>
+
+            <div class="form-group">
+              <label class="form-label" for="adm-promo-badge">Badge Label Banner</label>
+              <input type="text" id="adm-promo-badge" class="form-control" placeholder="🎁 Layanan Khusus UMKM" required />
+            </div>
+
+            <div class="form-group">
+              <label class="form-label" for="adm-promo-title">Judul Banner Promosi</label>
+              <input type="text" id="adm-promo-title" class="form-control" placeholder="Butuh Paket Hampers..." required />
+            </div>
+
+            <div class="form-group">
+              <label class="form-label" for="adm-promo-desc">Teks Deskripsi Banner</label>
+              <textarea id="adm-promo-desc" class="form-control" rows="3" required></textarea>
+            </div>
+
+            <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 1rem;">
+              <div class="form-group">
+                <label class="form-label" for="adm-promo-btn-text">Teks Tombol</label>
+                <input type="text" id="adm-promo-btn-text" class="form-control" placeholder="Konsultasi Paket Custom" required />
+              </div>
+              <div class="form-group">
+                <label class="form-label" for="adm-promo-wa-msg">Draft Pesan WhatsApp saat Tombol Diklik</label>
+                <input type="text" id="adm-promo-wa-msg" class="form-control" placeholder="Halo, saya tertarik dengan paket hampers..." required />
+              </div>
+            </div>
+          </div>
+
+          <!-- 4. EDIT HERO SECTION & STATISTIK -->
+          <div style="background: var(--bg-subtle); padding: 1.25rem; border-radius: var(--radius-lg); border: 1px solid var(--border-color); margin-bottom: 1.5rem;">
+            <h4 style="font-size: 1.05rem; font-weight: 700; margin-bottom: 1rem; color: var(--primary);">
+              <i class="fa-solid fa-rocket"></i> 4. Bagian Hero & Statistik Utama
+            </h4>
+
+            <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 1rem;">
+              <div class="form-group">
+                <label class="form-label" for="adm-hero-badge1">Badge Hero 1</label>
+                <input type="text" id="adm-hero-badge1" class="form-control" placeholder="100% Karya Asli Nusantara" />
+              </div>
+              <div class="form-group">
+                <label class="form-label" for="adm-hero-badge2">Badge Hero 2</label>
+                <input type="text" id="adm-hero-badge2" class="form-control" placeholder="Siap Kirim Hari Ini" />
+              </div>
+            </div>
+
+            <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 1rem;">
+              <div class="form-group">
+                <label class="form-label" for="adm-hero-title1">Judul Utama (Baris 1)</label>
+                <input type="text" id="adm-hero-title1" class="form-control" placeholder="Cita Rasa Otentik &" />
+              </div>
+              <div class="form-group">
+                <label class="form-label" for="adm-hero-title2">Judul Teks Berwarna Gradient (Baris 2)</label>
+                <input type="text" id="adm-hero-title2" class="form-control" placeholder="Kreasi Terbaik Lokal" />
+              </div>
+            </div>
+
+            <h5 style="font-size: 0.95rem; font-weight: 700; margin: 1rem 0 0.5rem;">4 Angka Statistik Counter:</h5>
+            <div style="display: grid; grid-template-columns: repeat(4, 1fr); gap: 0.75rem;">
+              <div>
+                <input type="text" id="adm-stat-num-0" class="form-control" placeholder="15.000+" style="font-weight: 700; margin-bottom: 0.25rem;" />
+                <input type="text" id="adm-stat-lbl-0" class="form-control" placeholder="Paket Terkirim" style="font-size: 0.8rem;" />
+              </div>
+              <div>
+                <input type="text" id="adm-stat-num-1" class="form-control" placeholder="100%" style="font-weight: 700; margin-bottom: 0.25rem;" />
+                <input type="text" id="adm-stat-lbl-1" class="form-control" placeholder="Bahan Alami" style="font-size: 0.8rem;" />
+              </div>
+              <div>
+                <input type="text" id="adm-stat-num-2" class="form-control" placeholder="4.9 / 5.0" style="font-weight: 700; margin-bottom: 0.25rem;" />
+                <input type="text" id="adm-stat-lbl-2" class="form-control" placeholder="Rating" style="font-size: 0.8rem;" />
+              </div>
+              <div>
+                <input type="text" id="adm-stat-num-3" class="form-control" placeholder="34 Provinsi" style="font-weight: 700; margin-bottom: 0.25rem;" />
+                <input type="text" id="adm-stat-lbl-3" class="form-control" placeholder="Jangkauan" style="font-size: 0.8rem;" />
+              </div>
+            </div>
+          </div>
+
+          <!-- 5. EDIT HEADER ULASAN PELANGGAN -->
+          <div style="background: var(--bg-subtle); padding: 1.25rem; border-radius: var(--radius-lg); border: 1px solid var(--border-color); margin-bottom: 1.5rem;">
+            <h4 style="font-size: 1.05rem; font-weight: 700; margin-bottom: 1rem; color: var(--primary);">
+              <i class="fa-solid fa-comments"></i> 5. Header Bagian "Ulasan Pelanggan"
+            </h4>
+
+            <div style="display: grid; grid-template-columns: 1fr 2fr; gap: 1rem;">
+              <div class="form-group">
+                <label class="form-label" for="adm-testi-sec-tag">Tagline Atas</label>
+                <input type="text" id="adm-testi-sec-tag" class="form-control" placeholder="Ulasan Pelanggan" required />
+              </div>
+              <div class="form-group">
+                <label class="form-label" for="adm-testi-sec-title">Judul Utama</label>
+                <input type="text" id="adm-testi-sec-title" class="form-control" placeholder="Apa Kata Mereka yang Sudah Mencoba?" required />
+              </div>
+            </div>
+
+            <div class="form-group" style="margin-bottom: 0;">
+              <label class="form-label" for="adm-testi-sec-subtitle">Sub-judul / Penjelasan</label>
+              <input type="text" id="adm-testi-sec-subtitle" class="form-control" placeholder="Cerita asli dari ribuan pelanggan yang telah menikmati produk dan layanan kami." required />
+            </div>
+          </div>
+
+          <!-- 6. EDIT BAGIAN KONTAK & FORM PESAN -->
+          <div style="background: var(--bg-subtle); padding: 1.25rem; border-radius: var(--radius-lg); border: 1px solid var(--border-color); margin-bottom: 1.5rem;">
+            <h4 style="font-size: 1.05rem; font-weight: 700; margin-bottom: 1rem; color: var(--primary);">
+              <i class="fa-solid fa-map-location-dot"></i> 6. Header Bagian "Hubungi Kami" & Form WhatsApp
+            </h4>
+
+            <div style="display: grid; grid-template-columns: 1fr 2fr; gap: 1rem;">
+              <div class="form-group">
+                <label class="form-label" for="adm-contact-sec-tag">Tagline Atas</label>
+                <input type="text" id="adm-contact-sec-tag" class="form-control" placeholder="Hubungi Kami" required />
+              </div>
+              <div class="form-group">
+                <label class="form-label" for="adm-contact-sec-title">Judul Utama</label>
+                <input type="text" id="adm-contact-sec-title" class="form-control" placeholder="Kunjungi Toko atau Pesan Daring" required />
+              </div>
+            </div>
+
+            <div class="form-group">
+              <label class="form-label" for="adm-contact-sec-subtitle">Sub-judul / Penjelasan</label>
+              <textarea id="adm-contact-sec-subtitle" class="form-control" rows="2" placeholder="Kami siap melayani kebutuhan informasi produk..." required></textarea>
+            </div>
+
+            <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 1rem;">
+              <div class="form-group" style="margin-bottom: 0;">
+                <label class="form-label" for="adm-contact-form-title-in">Judul Kotak Form</label>
+                <input type="text" id="adm-contact-form-title-in" class="form-control" placeholder="Tanya Produk & Informasi" required />
+              </div>
+              <div class="form-group" style="margin-bottom: 0;">
+                <label class="form-label" for="adm-contact-form-subtitle-in">Keterangan Sub-judul Form</label>
+                <input type="text" id="adm-contact-form-subtitle-in" class="form-control" placeholder="Tuliskan pesan Anda dan pesan akan otomatis diformat..." required />
+              </div>
+            </div>
+          </div>
+
+          <button type="submit" class="btn btn-primary btn-lg" style="width: 100%;">
+            <i class="fa-solid fa-floppy-disk"></i> Simpan Seluruh Konten Halaman
+          </button>
+        </form>
+      </div>
+
+      <!-- TAB 2: KELOLA PRODUK -->
+      <div class="admin-tab-content" id="tab-products">
+        <!-- Add / Edit Product Form -->
+        <div style="background: var(--bg-subtle); padding: 1.25rem; border-radius: var(--radius-lg); border: 1px solid var(--border-color); margin-bottom: 2rem;">
+          <h4 id="admin-product-form-title" style="margin-bottom: 1rem; font-size: 1.1rem;">Tambah Produk Baru</h4>
+          
+          <form id="admin-product-form">
+            <div style="display: grid; grid-template-columns: 2fr 1fr; gap: 1rem;">
+              <div class="form-group">
+                <label class="form-label" for="adm-prod-name">Nama Produk *</label>
+                <input type="text" id="adm-prod-name" class="form-control" placeholder="Contoh: Kopi Robusta Dampit 250gr" required />
+              </div>
+              <div class="form-group">
+                <label class="form-label" for="adm-prod-category">Kategori *</label>
+                <select id="adm-prod-category" class="form-control" required>
+                  <option value="kopi">Kopi & Minuman</option>
+                  <option value="kuliner">Camilan & Sambal</option>
+                  <option value="craft">Kerajinan Etnik</option>
+                  <option value="fashion">Batik & Busana</option>
+                </select>
+              </div>
+            </div>
+
+            <div style="display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 1rem;">
+              <div class="form-group">
+                <label class="form-label" for="adm-prod-price">Harga (Rp) *</label>
+                <input type="number" id="adm-prod-price" class="form-control" placeholder="75000" min="1000" required />
+              </div>
+              <div class="form-group">
+                <label class="form-label" for="adm-prod-original-price">Harga Coret (Diskon, Opsional)</label>
+                <input type="number" id="adm-prod-original-price" class="form-control" placeholder="90000" />
+              </div>
+              <div class="form-group">
+                <label class="form-label" for="adm-prod-badge">Label / Badge</label>
+                <input type="text" id="adm-prod-badge" class="form-control" placeholder="Contoh: Best Seller, Promo, Baru" />
+              </div>
+            </div>
+
+            <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 1rem;">
+              <div class="form-group">
+                <label class="form-label" for="adm-prod-rating">Rating (1.0 - 5.0)</label>
+                <input type="number" id="adm-prod-rating" class="form-control" step="0.1" min="1" max="5" value="5.0" />
+              </div>
+              <div class="form-group">
+                <label class="form-label" for="adm-prod-sales">Jumlah Terjual (Est.)</label>
+                <input type="number" id="adm-prod-sales" class="form-control" value="100" />
+              </div>
+            </div>
+
+            <div class="form-group">
+              <label class="form-label" for="adm-prod-image">Link Foto Produk (URL)</label>
+              <input type="text" id="adm-prod-image" class="form-control" placeholder="https://images.unsplash.com/... atau gunakan upload file di bawah" />
+            </div>
+
+            <div class="form-group" style="margin-top: -0.5rem; margin-bottom: 1.25rem;">
+              <label class="form-label" style="font-size: 0.8rem; color: var(--text-muted);" for="admin-product-file">Atau Upload Gambar dari Komputer:</label>
+              <input type="file" id="admin-product-file" accept="image/*" class="form-control" style="padding: 0.4rem;" />
+              <small style="color: var(--text-muted); font-size: 0.72rem;">*Foto akan otomatis diubah ke DataURL client-side tanpa butuh server hosting tambahan.</small>
+            </div>
+
+            <div class="form-group">
+              <label class="form-label" for="adm-prod-desc">Deskripsi Lengkap Produk *</label>
+              <textarea id="adm-prod-desc" class="form-control" rows="3" placeholder="Jelaskan cita rasa, keunggulan bahan, cara konsumsi atau perawatan..." required></textarea>
+            </div>
+
+            <div class="form-group">
+              <label class="form-label" for="adm-prod-specs">Spesifikasi Tambahan (Format: Kunci: Nilai, satu per baris)</label>
+              <textarea id="adm-prod-specs" class="form-control" rows="3" placeholder="Berat: 250 gram&#10;Asal: Dataran Tinggi Gayo&#10;Sertifikasi: Halal MUI"></textarea>
+            </div>
+
+            <div style="display: flex; gap: 0.75rem;">
+              <button type="submit" class="btn btn-primary" id="admin-product-submit-btn">
+                <i class="fa-solid fa-plus"></i> Tambah Produk Baru
+              </button>
+              <button type="button" class="btn btn-secondary" id="admin-product-cancel-btn" style="display: none;">
+                Batal Edit
+              </button>
+            </div>
+          </form>
+        </div>
+
+        <!-- Existing Products Table -->
+        <h4 style="font-size: 1.1rem; margin-bottom: 0.75rem;">Daftar Produk yang Sedang Tayang</h4>
+        <div class="admin-product-table-wrap">
+          <table class="admin-product-table">
+            <thead>
+              <tr>
+                <th style="width: 60px;">Foto</th>
+                <th>Nama Produk</th>
+                <th>Harga</th>
+                <th>Badge</th>
+                <th style="width: 100px;">Aksi</th>
+              </tr>
+            </thead>
+            <tbody id="admin-products-tbody">
+              <!-- Rendered by JS -->
+            </tbody>
+          </table>
+        </div>
+      </div>
+
+      <!-- TAB 3: KELOLA TESTIMONI -->
+      <div class="admin-tab-content" id="tab-testimonials">
+        <!-- Form Tambah / Edit Testimoni -->
+        <div style="background: var(--bg-subtle); padding: 1.25rem; border-radius: var(--radius-lg); border: 1px solid var(--border-color); margin-bottom: 2rem;">
+          <h4 id="admin-testimonial-form-title" style="margin-bottom: 1rem; font-size: 1.1rem;">Tambah Ulasan Pelanggan Baru</h4>
+          
+          <form id="admin-testimonial-form">
+            <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 1rem;">
+              <div class="form-group">
+                <label class="form-label" for="adm-testi-name">Nama Pelanggan *</label>
+                <input type="text" id="adm-testi-name" class="form-control" placeholder="Contoh: Budi Santoso" required />
+              </div>
+              <div class="form-group">
+                <label class="form-label" for="adm-testi-role">Profesi / Domisili *</label>
+                <input type="text" id="adm-testi-role" class="form-control" placeholder="Contoh: Pecinta Kopi, Jakarta Selatan" required />
+              </div>
+            </div>
+
+            <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 1rem;">
+              <div class="form-group">
+                <label class="form-label" for="adm-testi-rating">Rating Bintang</label>
+                <select id="adm-testi-rating" class="form-control">
+                  <option value="5">⭐⭐⭐⭐⭐ (5 Bintang)</option>
+                  <option value="4">⭐⭐⭐⭐ (4 Bintang)</option>
+                  <option value="3">⭐⭐⭐ (3 Bintang)</option>
+                  <option value="2">⭐⭐ (2 Bintang)</option>
+                  <option value="1">⭐ (1 Bintang)</option>
+                </select>
+              </div>
+              <div class="form-group">
+                <label class="form-label" for="adm-testi-date">Keterangan Waktu</label>
+                <input type="text" id="adm-testi-date" class="form-control" placeholder="Contoh: 2 hari yang lalu" />
+              </div>
+            </div>
+
+            <div class="form-group">
+              <label class="form-label" for="adm-testi-avatar">URL Foto / Avatar (Opsional)</label>
+              <input type="text" id="adm-testi-avatar" class="form-control" placeholder="https://images.unsplash.com/... atau gunakan upload di bawah" />
+            </div>
+            <div class="form-group" style="margin-top: -0.5rem; margin-bottom: 1.25rem;">
+              <label class="form-label" style="font-size: 0.8rem; color: var(--text-muted);" for="adm-testi-file">Atau Upload Foto Avatar dari Komputer:</label>
+              <input type="file" id="adm-testi-file" accept="image/*" class="form-control" style="padding: 0.4rem;" />
+            </div>
+
+            <div class="form-group">
+              <label class="form-label" for="adm-testi-comment">Isi Komentar Ulasan *</label>
+              <textarea id="adm-testi-comment" class="form-control" rows="3" placeholder="Ceritakan pengalaman kepuasan berbelanja atau cita rasa produk..." required></textarea>
+            </div>
+
+            <div style="display: flex; gap: 0.75rem;">
+              <button type="submit" class="btn btn-primary" id="admin-testi-submit-btn">
+                <i class="fa-solid fa-plus"></i> Tambah Ulasan Baru
+              </button>
+              <button type="button" class="btn btn-secondary" id="admin-testi-cancel-btn" style="display: none;">
+                Batal Edit
+              </button>
+            </div>
+          </form>
+        </div>
+
+        <h4 style="font-size: 1.1rem; margin-bottom: 0.75rem;">Daftar Testimoni & Ulasan yang Sedang Tampil</h4>
+        <div class="admin-product-table-wrap">
+          <table class="admin-product-table">
+            <thead>
+              <tr>
+                <th style="width: 50px;">Avatar</th>
+                <th>Nama & Info</th>
+                <th>Rating</th>
+                <th>Komentar Ulasan</th>
+                <th style="width: 100px;">Aksi</th>
+              </tr>
+            </thead>
+            <tbody id="admin-testimonials-tbody">
+              <!-- Rendered by JS -->
+            </tbody>
+          </table>
+        </div>
+      </div>
+
+      <!-- TAB 4: PUBLISH KE GITHUB PAGES -->
+      <div class="admin-tab-content" id="tab-publish">
+        <div class="admin-badge-notice">
+          <strong><i class="fa-solid fa-lightbulb"></i> Cara Kerja Sinkronisasi Tanpa Database:</strong><br />
+          Saat Anda mengedit atau menambah produk di browser ini, perubahan langsung aktif secara instan dan tersimpan di <code>LocalStorage</code>.
+          Agar perubahan ini permanen dan dapat dilihat oleh <strong>seluruh pembeli di dunia</strong> melalui GitHub Pages, Anda hanya perlu mengunduh file <code>site-data.json</code> baru dan menaruhnya di repositori GitHub Anda!
+        </div>
+
+        <div style="background: var(--bg-surface); border: 1px solid var(--border-color); border-radius: var(--radius-lg); padding: 1.75rem; margin-bottom: 1.5rem;">
+          <h4 style="margin-bottom: 0.75rem;"><i class="fa-solid fa-download" style="color: var(--primary);"></i> Langkah 1: Ekspor Data Terbaru</h4>
+          <p style="font-size: 0.9rem; color: var(--text-muted); margin-bottom: 1rem;">
+            Klik tombol di bawah untuk mendownload file <code>site-data.json</code> dengan produk dan pengaturan profil terbaru yang sudah Anda input:
+          </p>
+          <button class="btn btn-primary btn-lg" id="admin-export-btn">
+            <i class="fa-solid fa-file-arrow-down"></i> Unduh File site-data.json Terbaru
+          </button>
+        </div>
+
+        <div style="background: var(--bg-surface); border: 1px solid var(--border-color); border-radius: var(--radius-lg); padding: 1.75rem; margin-bottom: 1.5rem;">
+          <h4 style="margin-bottom: 0.75rem;"><i class="fa-brands fa-github" style="color: var(--text-main);"></i> Langkah 2: Cara Publish ke GitHub Pages (1 Menit)</h4>
+          <ol style="padding-left: 1.25rem; font-size: 0.9rem; color: var(--text-body); line-height: 1.7;">
+            <li>Buka akun GitHub Anda dan buat repository baru (misal: <code>katalog-umkm</code>) dengan status <strong>Public</strong>.</li>
+            <li>Upload seluruh file website ini (<code>index.html</code>, folder <code>css</code>, folder <code>js</code>, dan file <code>data/site-data.json</code>).</li>
+            <li>Masuk ke menu tab <strong>Settings</strong> di repository GitHub Anda &rarr; pilih menu <strong>Pages</strong> di bilah samping kiri.</li>
+            <li>Pada bagian <em>Build and deployment</em> &gt; <em>Source</em>, pilih <strong>Deploy from a branch</strong>.</li>
+            <li>Pilih branch <strong>main</strong> (atau <strong>master</strong>) dan folder <code>/(root)</code>, lalu klik tombol <strong>Save</strong>.</li>
+            <li>Tunggu 30-60 detik. Website Anda akan langsung online dan memiliki alamat publik HTTPS gratis seperti: <br />
+              <code style="background: var(--bg-subtle); padding: 0.2rem 0.5rem; border-radius: 4px; color: var(--primary); font-weight: 700;">
+                https://username.github.io/katalog-umkm/
+              </code>
+            </li>
+          </ol>
+        </div>
+
+        <!-- Saweria Support Box -->
+        <div style="background: rgba(245, 158, 11, 0.08); border: 1px solid rgba(245, 158, 11, 0.25); border-radius: var(--radius-lg); padding: 1.25rem; margin-bottom: 1.5rem; display: flex; align-items: center; justify-content: space-between; gap: 1rem; flex-wrap: wrap;">
+          <div>
+            <h5 style="margin: 0 0 0.25rem 0; font-size: 0.95rem; color: #f59e0b;"><i class="fa-solid fa-mug-hot"></i> Suka dengan Project Ini?</h5>
+            <p style="margin: 0; font-size: 0.83rem; color: var(--text-muted);">Dukung pengembangan fitur baru template UMKM ini melalui Saweria.</p>
+          </div>
+          <a href="https://saweria.co/itsamilitarysecret" target="_blank" class="btn btn-secondary btn-sm" style="border-color: #f59e0b; color: #f59e0b; font-weight: 700;">
+            <i class="fa-solid fa-heart" style="color: #ef4444;"></i> Donasi via Saweria
+          </a>
+        </div>
+
+        <div style="display: flex; gap: 1rem; flex-wrap: wrap; align-items: center; justify-content: space-between; border-top: 1px solid var(--border-color); padding-top: 1.5rem;">
+          <div style="display: flex; gap: 0.5rem; flex-wrap: wrap;">
+            <label class="btn btn-secondary btn-sm" style="cursor: pointer;">
+              <i class="fa-solid fa-file-import"></i> Impor Backup JSON
+              <input type="file" id="admin-import-file" accept=".json" style="display: none;" />
+            </label>
+            <button class="btn btn-secondary btn-sm" id="admin-reset-btn" style="color: #ef4444;">
+              <i class="fa-solid fa-rotate-left"></i> Reset ke Data Bawaan
+            </button>
+          </div>
+          <div>
+            <button type="button" class="btn btn-secondary btn-sm" id="admin-logout-btn-bottom" style="color: #ef4444; border-color: rgba(239, 68, 68, 0.35);">
+              <i class="fa-solid fa-right-from-bracket"></i> Keluar dari Admin
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <!-- Global Overlay -->
+  <div class="overlay" id="global-overlay"></div>
+
+  <!-- Toast Container -->
+  <div class="toast-container" id="toast-container"></div>
+
+
+  <!-- Scripts -->
+  <script src="js/app.js"></script>
+  <script src="js/admin.js"></script>
+</body>
+</html>

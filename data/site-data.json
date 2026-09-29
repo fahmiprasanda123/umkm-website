@@ -1,0 +1,291 @@
+{
+  "profile": {
+    "storeName": "Nusantara Artisan & Co.",
+    "tagline": "Kreasi Otentik & Cita Rasa Terbaik dari Pengrajin Lokal",
+    "logoType": "icon",
+    "logoIcon": "fa-solid fa-leaf",
+    "logoImage": "",
+    "description": "Menyajikan ragam produk kebanggaan nusantara: biji kopi pegunungan nusantara, aneka camilan & sambal rumahan resep otentik, serta kerajinan tangan bernilai seni tinggi karya pengrajin daerah.",
+    "phone": "6281234567890",
+    "email": "halo@nusantaraco.id",
+    "address": "Jl. Malioboro No. 45, Danurejan, Kota Yogyakarta, D.I. Yogyakarta 55213",
+    "mapsUrl": "https://maps.google.com/maps?q=Malioboro+Yogyakarta&t=&z=15&ie=UTF8&iwloc=&output=embed",
+    "openingHours": "Senin - Sabtu: 08.00 - 21.00 WIB | Minggu: 09.00 - 18.00 WIB",
+    "social": {
+      "instagram": "https://instagram.com",
+      "tiktok": "https://tiktok.com",
+      "shopee": "https://shopee.co.id",
+      "tokopedia": "https://tokopedia.com"
+    },
+    "stats": [
+      { "number": "15.000+", "label": "Paket Terkirim" },
+      { "number": "100%", "label": "Bahan Alami & Halal" },
+      { "number": "4.9 / 5.0", "label": "Rating Kepuasan" },
+      { "number": "34 Provinsi", "label": "Jangkauan Kirim" }
+    ],
+    "highlights": [
+      {
+        "icon": "shield-check",
+        "title": "Kualitas Terjamin 100%",
+        "desc": "Semua bahan baku diseleksi ketat dan diproses dengan standar higienis dan bersertifikat."
+      },
+      {
+        "icon": "truck",
+        "title": "Pengiriman Cepat & Aman",
+        "desc": "Packing tebal dengan bubble wrap gratis. Didukung pengiriman kurir instan dan ekspedisi kargo."
+      },
+      {
+        "icon": "heart-handshake",
+        "title": "Dukung Petani & Pengrajin",
+        "desc": "Setiap pembelian Anda berkontribusi langsung bagi kesejahteraan puluhan pengrajin lokal."
+      },
+      {
+        "icon": "message-circle",
+        "title": "CS Ramah & Fast Response",
+        "desc": "Konsultasi produk dan pemesanan mudah melalui WhatsApp resmi tanpa perlu registrasi rumit."
+      }
+    ],
+    "adminPinHash": "03ac674216f3e15c761ee1a5e255f067953623c8b388b4459e13f978d7c846f4",
+    "hero": {
+      "badge1": "100% Karya Asli Nusantara",
+      "badge2": "Siap Kirim Hari Ini",
+      "titlePart1": "Cita Rasa Otentik &",
+      "titlePart2": "Kreasi Terbaik Lokal"
+    },
+    "about": {
+      "tag": "Tentang Kami",
+      "title": "Menghubungkan Karya Pengrajin Daerah Langsung ke Tangan Anda",
+      "paragraph1": "Berawal dari kepedulian terhadap potensi melimpah hasil bumi dan seni kriya tanah air, Nusantara Artisan hadir sebagai wadah kurasi produk-produk UMKM berkualitas unggul.",
+      "paragraph2": "Kami memastikan setiap biji kopi disangrai dengan presisi, setiap camilan diproduksi secara higienis dengan bahan alami, serta setiap jahitan batik dan anyaman dibuat dengan ketelitian rasa seni tinggi.",
+      "statNumber": "10+ Tahun",
+      "statText": "Memberdayakan Komunitas Lokal",
+      "image": "https://images.unsplash.com/photo-1544816155-12df9643f363?auto=format&fit=crop&w=900&q=80",
+      "features": [
+        { "icon": "fa-solid fa-seedling", "title": "Bahan Alami Pilihan", "desc": "Tanpa bahan kimia berbahaya atau pengawet buatan." },
+        { "icon": "fa-solid fa-hand-holding-heart", "title": "Fair Trade / Adil", "desc": "Mendukung langsung ekonomi puluhan petani & artisan." },
+        { "icon": "fa-solid fa-box-archive", "title": "Quality Control Ketat", "desc": "Setiap paket dipastikan aman dan bergaransi utuh." },
+        { "icon": "fa-solid fa-shield-halved", "title": "Halal & Bersertifikat", "desc": "Legalitas izin edar terjamin dan terverifikasi." }
+      ]
+    },
+    "whyUs": {
+      "tag": "Mengapa Memilih Kami?",
+      "title": "Komitmen Kualitas & Pelayanan Terbaik",
+      "subtitle": "Kenyamanan dan kepuasan Anda adalah prioritas utama kami dalam setiap transaksi.",
+      "items": [
+        { "icon": "fa-solid fa-shield-halved", "title": "Kualitas Terjamin 100%", "desc": "Semua bahan baku diseleksi ketat dan diproses dengan standar higienis dan bersertifikat." },
+        { "icon": "fa-solid fa-truck-fast", "title": "Pengiriman Cepat & Aman", "desc": "Packing tebal dengan bubble wrap gratis. Didukung pengiriman kurir instan dan ekspedisi kargo." },
+        { "icon": "fa-solid fa-hand-holding-heart", "title": "Dukung Petani & Pengrajin", "desc": "Setiap pembelian Anda berkontribusi langsung bagi kesejahteraan puluhan pengrajin lokal." },
+        { "icon": "fa-brands fa-whatsapp", "title": "CS Ramah & Fast Response", "desc": "Konsultasi produk dan pemesanan mudah melalui WhatsApp resmi tanpa perlu registrasi rumit." }
+      ]
+    },
+    "promoBanner": {
+      "badge": "🎁 Layanan Khusus UMKM",
+      "title": "Butuh Paket Hampers, Souvenir Acara, atau Pesanan Jumlah Banyak?",
+      "desc": "Kami melayani kustomisasi paket bingkisan hari raya, souvenir pernikahan etnik, serta paket corporate gift kantor dengan harga spesial grosir dan packaging premium berlogo Anda.",
+      "btnText": "Konsultasi Paket Custom",
+      "waMessage": "Halo Nusantara Artisan, saya tertarik dengan paket Hampers / Souvenir Custom."
+    },
+    "testimonialsSection": {
+      "tag": "Ulasan Pelanggan",
+      "title": "Apa Kata Mereka yang Sudah Mencoba?",
+      "subtitle": "Cerita asli dari ribuan pelanggan yang telah menikmati produk dan layanan kami."
+    },
+    "contactSection": {
+      "tag": "Hubungi Kami",
+      "title": "Kunjungi Toko atau Pesan Daring",
+      "subtitle": "Kami siap melayani kebutuhan informasi produk, pemesanan partai besar, atau sekadar silaturahmi langsung di gerai kami.",
+      "formTitle": "Tanya Produk & Informasi",
+      "formSubtitle": "Tuliskan pesan Anda dan pesan akan otomatis diformat ke nomor WhatsApp Customer Service kami."
+    }
+  },
+  "categories": [
+    { "id": "all", "name": "Semua Produk", "icon": "layout-grid" },
+    { "id": "kopi", "name": "Kopi & Minuman", "icon": "coffee" },
+    { "id": "kuliner", "name": "Camilan & Sambal", "icon": "utensils" },
+    { "id": "craft", "name": "Kerajinan Etnik", "icon": "gem" },
+    { "id": "fashion", "name": "Batik & Busana", "icon": "shirt" }
+  ],
+  "products": [
+    {
+      "id": "prd-01",
+      "name": "Kopi Arabika Gayo Single Origin 250gr",
+      "category": "kopi",
+      "price": 75000,
+      "originalPrice": 90000,
+      "badge": "Best Seller",
+      "rating": 4.9,
+      "sales": 1420,
+      "image": "https://images.unsplash.com/photo-1559056199-641a0ac8b55e?auto=format&fit=crop&w=800&q=80",
+      "description": "Biji kopi Arabika asli dari dataran tinggi Gayo Aceh dengan proses wash halus. Karakter rasa fruity, citrusy yang segar, dengan aftertaste karamel manis alami. Tersedia dalam bentuk biji sangrai atau bubuk halus/sedang/kasar.",
+      "specifications": {
+        "Berat": "250 gram",
+        "Asal": "Takengon, Aceh Tengah (1.400 mdpl)",
+        "Roast Level": "Medium Roast",
+        "Notes": "Brown Sugar, Citrus, Dark Chocolate"
+      },
+      "inStock": true
+    },
+    {
+      "id": "prd-02",
+      "name": "Sambal Cumi Asin Cabe Ijo Spesial 200gr",
+      "category": "kuliner",
+      "price": 38000,
+      "originalPrice": 45000,
+      "badge": "Favorit",
+      "rating": 5.0,
+      "sales": 2350,
+      "image": "https://images.unsplash.com/photo-1626082927389-6cd097cdc6ec?auto=format&fit=crop&w=800&q=80",
+      "description": "Sambal cumi asin gurih nikmat dengan cabai rawit hijau segar dan rempah daun jeruk. Potongan cumi melimpah, tidak amis, dan tanpa bahan pengawet kimia. Tahan 1 bulan dalam kulkas.",
+      "specifications": {
+        "Berat Bersih": "200 gram",
+        "Tingkat Pedas": "Level 4 (Pedas Nikmat)",
+        "Ketahanan": "14 hari suhu ruang / 2 bulan kulkas",
+        "Sertifikasi": "Halal ID & P-IRT Terdaftar"
+      },
+      "inStock": true
+    },
+    {
+      "id": "prd-03",
+      "name": "Tas Anyaman Rotan Bali Handmade Etnik",
+      "category": "craft",
+      "price": 145000,
+      "originalPrice": 175000,
+      "badge": "Artisan Choice",
+      "rating": 4.8,
+      "sales": 870,
+      "image": "https://images.unsplash.com/photo-1590874103328-eac38a683ce7?auto=format&fit=crop&w=800&q=80",
+      "description": "Tas selempang anyaman rotan bulat khas pengrajin Bali dengan tali kulit sapi asli dan lapisan kain batik furing dalam yang elegan. Ringan, kokoh, dan cocok untuk gaya kasual maupun formal.",
+      "specifications": {
+        "Diameter": "20 cm x Tebal 7 cm",
+        "Bahan": "Rotan Alami & Tali Kulit Asli",
+        "Furing": "Kain Batik Tradisional",
+        "Warna": "Natural Honey / Cokelat Hangat"
+      },
+      "inStock": true
+    },
+    {
+      "id": "prd-04",
+      "name": "Kemeja Batik Katun Primisima Motif Kawung",
+      "category": "fashion",
+      "price": 185000,
+      "originalPrice": 220000,
+      "badge": "Eksklusif",
+      "rating": 4.9,
+      "sales": 950,
+      "image": "https://images.unsplash.com/photo-1602810318383-e386cc2a3ccf?auto=format&fit=crop&w=800&q=80",
+      "description": "Kemeja batik pria modern lengan panjang dengan bahan katun Primisima Sanforized yang sejuk, tidak mudah kusut, dan tidak luntur. Pola motif simetris rapi dipotong satu per satu.",
+      "specifications": {
+        "Bahan": "Katun Primisima 100% Halus",
+        "Jahitan": "Kualitas Tailor & Lapis Furing Arrow",
+        "Ukuran": "M, L, XL, XXL",
+        "Pilihan Lengan": "Panjang / Pendek"
+      },
+      "inStock": true
+    },
+    {
+      "id": "prd-05",
+      "name": "Madu Hutan Liar Murni Flores 350ml",
+      "category": "kuliner",
+      "price": 95000,
+      "originalPrice": 120000,
+      "badge": "100% Organik",
+      "rating": 4.9,
+      "sales": 1120,
+      "image": "https://images.unsplash.com/photo-1587049352846-4a222e784d38?auto=format&fit=crop&w=800&q=80",
+      "description": "Madu murni hasil lebah Apis Dorsata dari pedalaman hutan Pulau Flores. Kaya akan antioksidan, enzim alami, dan tanpa tambahan gula maupun pemanasan (raw honey). Rasa manis lembut dengan sensasi flora hutan liar.",
+      "specifications": {
+        "Isi Bersih": "350 ml / 480 gram",
+        "Jenis": "Raw Forest Honey (Apis Dorsata)",
+        "Kemasan": "Botol Kaca Kedap Udara Segel",
+        "Khasiat": "Meningkatkan imun & energi harian"
+      },
+      "inStock": true
+    },
+    {
+      "id": "prd-06",
+      "name": "Keripik Tempe Sagu Renyah Daun Jeruk 250gr",
+      "category": "kuliner",
+      "price": 25000,
+      "originalPrice": 30000,
+      "badge": "Camilan Favorit",
+      "rating": 4.8,
+      "sales": 3200,
+      "image": "https://images.unsplash.com/photo-1599490659213-e2b9527bd087?auto=format&fit=crop&w=800&q=80",
+      "description": "Keripik tempe kedelai non-GMO berbalut sagu tipis dengan racikan bumbu bawang putih dan irisan daun jeruk purut. Sangat renyah, tidak berminyak, gurih alami tanpa MSG berlebih.",
+      "specifications": {
+        "Berat": "250 gram",
+        "Varian": "Original Bawang Daun Jeruk / Pedas Manis",
+        "Masa Simpan": "4 bulan dalam kemasan ziplock",
+        "Kemasan": "Aluminium Foil Ziplock Premium"
+      },
+      "inStock": true
+    },
+    {
+      "id": "prd-07",
+      "name": "Scarf Selendang Tenun Ikat Jepara",
+      "category": "fashion",
+      "price": 115000,
+      "originalPrice": 135000,
+      "badge": "Handwoven",
+      "rating": 4.9,
+      "sales": 640,
+      "image": "https://images.unsplash.com/photo-1584917865442-de89df76afd3?auto=format&fit=crop&w=800&q=80",
+      "description": "Selendang tenun ikat tradisional Jepara ditenun manual dengan Alat Tenun Bukan Mesin (ATBM). Warna alami awet dan tidak kaku, mempercantik busana harian maupun acara istimewa.",
+      "specifications": {
+        "Ukuran": "200 cm x 50 cm",
+        "Teknik": "Tenun Tradisional ATBM",
+        "Material": "Benang Katun Mercerized Adem",
+        "Finishing": "Rumbai Etnik Rapi"
+      },
+      "inStock": true
+    },
+    {
+      "id": "prd-08",
+      "name": "Diffuser Aromaterapi Keramik Candi",
+      "category": "craft",
+      "price": 88000,
+      "originalPrice": 110000,
+      "badge": "Koleksi Estetik",
+      "rating": 4.7,
+      "sales": 510,
+      "image": "https://images.unsplash.com/photo-1608571423902-eed4a5ad8108?auto=format&fit=crop&w=800&q=80",
+      "description": "Tungku aromaterapi lilin berbahan keramik stoneware buatan perajin gerabah Kasongan Yogyakarta. Desain estetik terinspirasi stupa candi, cocok untuk mempercantik meja kerja dan relaksasi ruangan.",
+      "specifications": {
+        "Bahan": "Stoneware Ceramic Bakaran Tinggi",
+        "Dimensi": "Tinggi 11 cm, Diameter 9 cm",
+        "Bonus": "Gratis 2 pcs Tealight Candle & 1 botol Essential Oil 10ml",
+        "Pilihan Warna": "Terracotta & Ivory White"
+      },
+      "inStock": true
+    }
+  ],
+  "testimonials": [
+    {
+      "id": "tst-01",
+      "name": "Budi Santoso",
+      "role": "Pecinta Kopi, Jakarta Selatan",
+      "avatar": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=200&q=80",
+      "rating": 5,
+      "comment": "Kopi Gayo-nya luar biasa segar! Aromanya semerbak waktu pertama kali diseduh V60. Pengiriman cepat dan pesan via WhatsApp tinggal klik langsung dilayani admin yang super ramah.",
+      "date": "2 hari yang lalu"
+    },
+    {
+      "id": "tst-02",
+      "name": "Rina Wulandari",
+      "role": "Ibu Rumah Tangga, Surabaya",
+      "avatar": "https://images.unsplash.com/photo-1544005313-94ddf0286df2?auto=format&fit=crop&w=200&q=80",
+      "rating": 5,
+      "comment": "Sambal cumi cabe ijonya juara banget! Cumina empuk dan melimpah, nggak pelit bumbu. Keripik tempenya juga renyah tahan lama. Sudah repeat order 3 kali.",
+      "date": "1 minggu yang lalu"
+    },
+    {
+      "id": "tst-03",
+      "name": "Dimas Pratama",
+      "role": "Eksekutif Muda, Bandung",
+      "avatar": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=200&q=80",
+      "rating": 5,
+      "comment": "Batik motif kawungnya adem banget dipakai seharian di kantor, potongannya pas di badan. Bangga banget dukung produk karya lokal dengan kualitas premium kayak gini.",
+      "date": "2 minggu yang lalu"
+    }
+  ]
+}

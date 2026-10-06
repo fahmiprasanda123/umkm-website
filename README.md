@@ -156,13 +156,13 @@ Di dalam Panel Admin:
 
 ---
 
-## ☕ Dukung Pengembang (Donasi via Saweria)
+## ☕ Dukung Pengembang (Support & Donasi)
 
 Template website UMKM ini dibuat dan dibagikan secara gratis dan terbuka (*open-source*) untuk mendukung kemajuan dan percepatan digitalisasi pelaku UMKM di seluruh Indonesia.
 
-Jika template website ini bermanfaat bagi usaha Anda dan Anda ingin mendukung pengembangan fitur-fitur baru lebih lanjut, Anda dapat memberikan apresiasi atau donasi sukarela melalui tautan Saweria berikut:
+Jika template website ini bermanfaat bagi usaha Anda dan Anda ingin mendukung pengembangan fitur-fitur baru lebih lanjut, Anda dapat memberikan apresiasi atau donasi sukarela melalui tautan berikut:
 
-👉 **[https://saweria.co/itsamilitarysecret](https://saweria.co/itsamilitarysecret)**
+- ☕ **Buy Me a Coffee**: [https://buymeacoffee.com/itsamilitarysecret](https://buymeacoffee.com/itsamilitarysecret)
+- 💛 **Saweria**: [https://saweria.co/itsamilitarysecret](https://saweria.co/itsamilitarysecret)
 
 Terima kasih banyak atas setiap dukungan, doa, dan apresiasi Anda untuk kemajuan ekosistem UMKM lokal! 🙏✨
-# umkm-website

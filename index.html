@@ -82,23 +82,11 @@
          HERO SECTION
          ========================================== -->
     <section class="hero-section" id="beranda">
-      <div class="hero-bg-glow"></div>
-      <div class="hero-bg-glow-2"></div>
-
       <div class="container hero-grid">
         <div class="hero-content">
-          <div class="hero-badge-wrap">
-            <span class="badge badge-primary" id="hero-badge-1">
-              <i class="fa-solid fa-certificate"></i> 100% Karya Asli Nusantara
-            </span>
-            <span class="badge badge-accent" id="hero-badge-2">
-              <i class="fa-solid fa-bolt"></i> Siap Kirim Hari Ini
-            </span>
-          </div>
-
           <h1 class="hero-title">
             <span id="hero-title-part1">Cita Rasa Otentik &</span> <br />
-            <span class="gradient-text" id="hero-title-part2">Kreasi Terbaik Lokal</span>
+            <span class="hero-title-accent" id="hero-title-part2">Karya Pengrajin Nusantara</span>
           </h1>
 
           <p class="hero-desc" id="hero-desc">
@@ -114,7 +102,7 @@
             </a>
           </div>
 
-          <!-- Hero Live Stats -->
+          <!-- Hero Value Pillars (Subtle & Truthful) -->
           <div class="hero-stats" id="hero-stats-container">
             <!-- Dynamically populated from JS -->
           </div>
@@ -126,14 +114,14 @@
             <!-- Dynamically populated featured product card -->
           </div>
 
-          <!-- Floating Micro Badge -->
-          <div class="floating-pill">
-            <div class="floating-pill-icon">
+          <!-- Calm Value Note -->
+          <div class="hero-quick-note">
+            <div class="hero-quick-note-icon">
               <i class="fa-brands fa-whatsapp"></i>
             </div>
-            <div class="floating-pill-text">
-              <span class="floating-pill-title">Order Cepat & Mudah</span>
-              <span class="floating-pill-sub">Langsung Terhubung ke Penjual</span>
+            <div class="hero-quick-note-text">
+              <span class="hero-quick-note-title">Pemesanan Langsung</span>
+              <span class="hero-quick-note-sub">Respon cepat via WhatsApp resmi</span>
             </div>
           </div>
         </div>
@@ -244,8 +232,8 @@
       <div class="container">
         <div class="cta-banner">
           <div class="cta-content">
-            <span class="badge" id="promo-badge" style="background: rgba(255,255,255,0.2); color: #fff; margin-bottom: 0.75rem;">
-              🎁 Layanan Khusus UMKM
+            <span class="badge" id="promo-badge" style="background: rgba(255,255,255,0.18); color: #fff; margin-bottom: 0.75rem;">
+              <i class="fa-solid fa-gift"></i> <span id="promo-badge-text">Layanan Kustom & Hampers</span>
             </span>
             <h3 class="cta-title" id="promo-title">Butuh Paket Hampers, Souvenir Acara, atau Pesanan Jumlah Banyak?</h3>
             <p class="cta-desc" id="promo-desc">
@@ -421,11 +409,11 @@
         <div class="footer-col">
           <h5>Kategori Produk</h5>
           <ul>
-            <li><a href="#katalog">Kopi Nusantara</a></li>
-            <li><a href="#katalog">Camilan Tradisional</a></li>
-            <li><a href="#katalog">Sambal Khas Daerah</a></li>
-            <li><a href="#katalog">Kerajinan Etnik Bali & Jawa</a></li>
-            <li><a href="#katalog">Batik Tulis & Tenun Ikat</a></li>
+            <li><a href="#katalog" class="footer-category-link" data-category="kopi">Kopi Nusantara</a></li>
+            <li><a href="#katalog" class="footer-category-link" data-category="kuliner">Camilan Tradisional</a></li>
+            <li><a href="#katalog" class="footer-category-link" data-category="kuliner">Sambal Khas Daerah</a></li>
+            <li><a href="#katalog" class="footer-category-link" data-category="craft">Kerajinan Etnik Bali & Jawa</a></li>
+            <li><a href="#katalog" class="footer-category-link" data-category="fashion">Batik Tulis & Tenun Ikat</a></li>
           </ul>
         </div>
 
@@ -968,7 +956,7 @@
 
             <div class="form-group">
               <label class="form-label" for="adm-promo-badge">Badge Label Banner</label>
-              <input type="text" id="adm-promo-badge" class="form-control" placeholder="🎁 Layanan Khusus UMKM" required />
+              <input type="text" id="adm-promo-badge" class="form-control" placeholder="Layanan Kustom & Hampers" required />
             </div>
 
             <div class="form-group">

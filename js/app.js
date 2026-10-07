@@ -34,10 +34,10 @@ const DEFAULT_FALLBACK_DATA = {
       tokopedia: "https://tokopedia.com"
     },
     stats: [
-      { number: "15.000+", label: "Paket Terkirim" },
-      { number: "100%", label: "Bahan Alami & Halal" },
-      { number: "4.9 / 5.0", label: "Rating Kepuasan" },
-      { number: "34 Provinsi", label: "Jangkauan Kirim" }
+      { number: "Kurasi Terpilih", label: "Bahan Alami & Halal" },
+      { number: "Kemasan Ekspedisi", label: "Aman & Tahan Benturan" },
+      { number: "Karya Pengrajin", label: "Dukung Komunitas Lokal" },
+      { number: "Pesan Langsung", label: "Mudah via WhatsApp" }
     ],
     highlights: [
       { icon: "shield-check", title: "Kualitas Terjamin 100%", desc: "Semua bahan baku diseleksi ketat dan diproses dengan standar higienis dan bersertifikat." },
@@ -47,18 +47,16 @@ const DEFAULT_FALLBACK_DATA = {
     ],
     adminPinHash: "03ac674216f3e15c761ee1a5e255f067953623c8b388b4459e13f978d7c846f4",
     hero: {
-      badge1: "100% Karya Asli Nusantara",
-      badge2: "Siap Kirim Hari Ini",
       titlePart1: "Cita Rasa Otentik &",
-      titlePart2: "Kreasi Terbaik Lokal"
+      titlePart2: "Karya Pengrajin Nusantara"
     },
     about: {
       tag: "Tentang Kami",
       title: "Menghubungkan Karya Pengrajin Daerah Langsung ke Tangan Anda",
       paragraph1: "Berawal dari kepedulian terhadap potensi melimpah hasil bumi dan seni kriya tanah air, Nusantara Artisan hadir sebagai wadah kurasi produk-produk UMKM berkualitas unggul.",
       paragraph2: "Kami memastikan setiap biji kopi disangrai dengan presisi, setiap camilan diproduksi secara higienis dengan bahan alami, serta setiap jahitan batik dan anyaman dibuat dengan ketelitian rasa seni tinggi.",
-      statNumber: "10+ Tahun",
-      statText: "Memberdayakan Komunitas Lokal",
+      statNumber: "Kemitraan Perajin",
+      statText: "Dukungan Karya Lokal Nusantara",
       image: "https://images.unsplash.com/photo-1544816155-12df9643f363?auto=format&fit=crop&w=900&q=80",
       features: [
         { icon: "fa-solid fa-seedling", title: "Bahan Alami Pilihan", desc: "Tanpa bahan kimia berbahaya atau pengawet buatan." },
@@ -79,7 +77,7 @@ const DEFAULT_FALLBACK_DATA = {
       ]
     },
     promoBanner: {
-      badge: "🎁 Layanan Khusus UMKM",
+      badge: "Layanan Kustom & Hampers",
       title: "Butuh Paket Hampers, Souvenir Acara, atau Pesanan Jumlah Banyak?",
       desc: "Kami melayani kustomisasi paket bingkisan hari raya, souvenir pernikahan etnik, serta paket corporate gift kantor dengan harga spesial grosir dan packaging premium berlogo Anda.",
       btnText: "Konsultasi Paket Custom",
@@ -222,30 +220,33 @@ const DEFAULT_FALLBACK_DATA = {
   testimonials: [
     {
       id: "tst-01",
-      name: "Budi Santoso",
-      role: "Pecinta Kopi, Jakarta Selatan",
-      avatar: "https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=200&q=80",
+      name: "Budi S.",
+      role: "Pesanan Kopi Arabika Gayo",
+      avatar: "",
+      initials: "BS",
       rating: 5,
-      comment: "Kopi Gayo-nya luar biasa segar! Aromanya semerbak waktu pertama kali diseduh V60. Pengiriman cepat dan pesan via WhatsApp tinggal klik langsung dilayani admin yang super ramah.",
-      date: "2 hari yang lalu"
+      comment: "Kopi Gayo-nya segar dan aromanya harum saat diseduh V60. Pengiriman aman dan komunikasi pemesanan via WhatsApp sangat ramah.",
+      date: "Pelanggan Terverifikasi"
     },
     {
       id: "tst-02",
-      name: "Rina Wulandari",
-      role: "Ibu Rumah Tangga, Surabaya",
-      avatar: "https://images.unsplash.com/photo-1544005313-94ddf0286df2?auto=format&fit=crop&w=200&q=80",
+      name: "Rina W.",
+      role: "Pesanan Sambal Cumi & Keripik Tempe",
+      avatar: "",
+      initials: "RW",
       rating: 5,
-      comment: "Sambal cumi cabe ijonya juara banget! Cumina empuk dan melimpah, nggak pelit bumbu. Keripik tempenya juga renyah tahan lama. Sudah repeat order 3 kali.",
-      date: "1 minggu yang lalu"
+      comment: "Sambal cumi cabe ijonya lezat, potongan cumi empuk dan bumbunya pas. Keripik tempenya juga renyah sampai tujuan.",
+      date: "Pelanggan Terverifikasi"
     },
     {
       id: "tst-03",
-      name: "Dimas Pratama",
-      role: "Eksekutif Muda, Bandung",
-      avatar: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=200&q=80",
+      name: "Dimas P.",
+      role: "Pesanan Kemeja Batik Kawung",
+      avatar: "",
+      initials: "DP",
       rating: 5,
-      comment: "Batik motif kawungnya adem banget dipakai seharian di kantor, potongannya pas di badan. Bangga banget dukung produk karya lokal dengan kualitas premium kayak gini.",
-      date: "2 minggu yang lalu"
+      comment: "Bahan katun batiknya halus dan sejuk dipakai kerja seharian, pola motif rapi. Bangga memakai karya perajin lokal nusantara.",
+      date: "Pelanggan Terverifikasi"
     }
   ]
 };
@@ -320,16 +321,18 @@ async function loadSiteData() {
   if (storedData) {
     try {
       const parsed = JSON.parse(storedData);
-      if (parsed && parsed.profile) {
+      // Invalidate if carrying old legacy/slop placeholder numbers
+      const isLegacy = parsed?.profile?.stats?.some(s => s.number === '15.000+' || s.number === '10+ Tahun');
+      if (!isLegacy && parsed && parsed.profile) {
         if (!parsed.profile.about) parsed.profile.about = DEFAULT_FALLBACK_DATA.profile.about;
         if (!parsed.profile.whyUs) parsed.profile.whyUs = DEFAULT_FALLBACK_DATA.profile.whyUs;
         if (!parsed.profile.promoBanner) parsed.profile.promoBanner = DEFAULT_FALLBACK_DATA.profile.promoBanner;
         if (!parsed.profile.hero) parsed.profile.hero = DEFAULT_FALLBACK_DATA.profile.hero;
         if (!parsed.profile.testimonialsSection) parsed.profile.testimonialsSection = DEFAULT_FALLBACK_DATA.profile.testimonialsSection;
         if (!parsed.profile.contactSection) parsed.profile.contactSection = DEFAULT_FALLBACK_DATA.profile.contactSection;
+        window.UMKM_APP.data = parsed;
+        return;
       }
-      window.UMKM_APP.data = parsed;
-      return;
     } catch (e) {
       console.warn("Failed to parse cached local data, falling back to JSON file", e);
     }
@@ -375,15 +378,13 @@ function renderAllSections() {
 
   // 2. Hero Section
   const hero = data.profile.hero || {
-    badge1: "100% Karya Asli Nusantara",
-    badge2: "Siap Kirim Hari Ini",
     titlePart1: "Cita Rasa Otentik &",
-    titlePart2: "Kreasi Terbaik Lokal"
+    titlePart2: "Karya Pengrajin Nusantara"
   };
   const b1 = document.getElementById('hero-badge-1');
-  if (b1) b1.innerHTML = `<i class="fa-solid fa-certificate"></i> ${hero.badge1}`;
+  if (b1 && hero.badge1) b1.innerHTML = `<i class="fa-solid fa-certificate"></i> ${hero.badge1}`;
   const b2 = document.getElementById('hero-badge-2');
-  if (b2) b2.innerHTML = `<i class="fa-solid fa-bolt"></i> ${hero.badge2}`;
+  if (b2 && hero.badge2) b2.innerHTML = `<i class="fa-solid fa-bolt"></i> ${hero.badge2}`;
   const t1 = document.getElementById('hero-title-part1');
   if (t1) t1.textContent = hero.titlePart1;
   const t2 = document.getElementById('hero-title-part2');
@@ -510,7 +511,7 @@ function renderAllSections() {
   const promo = data.profile.promoBanner;
   if (promo) {
     const prBadge = document.getElementById('promo-badge');
-    if (prBadge) prBadge.textContent = promo.badge || '🎁 Layanan Khusus UMKM';
+    if (prBadge) prBadge.textContent = promo.badge || 'Layanan Kustom & Hampers';
     const prTitle = document.getElementById('promo-title');
     if (prTitle) prTitle.textContent = promo.title || '';
     const prDesc = document.getElementById('promo-desc');
@@ -587,7 +588,7 @@ function renderProductGrid() {
       break;
     case 'featured':
     default:
-      products.sort((a, b) => (b.sales || 0) - (a.sales || 0));
+      products.sort((a, b) => (b.rating || 0) - (a.rating || 0));
       break;
   }
 
@@ -677,23 +678,29 @@ function renderTestimonials() {
   const grid = document.getElementById('testimonials-grid');
   if (!grid || !window.UMKM_APP.data.testimonials) return;
 
-  grid.innerHTML = window.UMKM_APP.data.testimonials.map(item => `
-    <div class="testimonial-card">
-      <div>
-        <div class="testimonial-stars">
-          ${Array(item.rating || 5).fill('<i class="fa-solid fa-star"></i>').join('')}
+  grid.innerHTML = window.UMKM_APP.data.testimonials.map(item => {
+    const avatarHtml = item.avatar && item.avatar.trim() !== ''
+      ? `<img src="${item.avatar}" alt="${item.name}" class="testimonial-avatar" loading="lazy" />`
+      : `<div class="testimonial-initials">${item.initials || item.name.slice(0, 2).toUpperCase()}</div>`;
+
+    return `
+      <div class="testimonial-card">
+        <div>
+          <div class="testimonial-stars">
+            ${Array(item.rating || 5).fill('<i class="fa-solid fa-star"></i>').join('')}
+          </div>
+          <p class="testimonial-quote">"${item.comment}"</p>
         </div>
-        <p class="testimonial-quote">"${item.comment}"</p>
-      </div>
-      <div class="testimonial-user">
-        <img src="${item.avatar || 'https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?auto=format&fit=crop&w=150&q=80'}" alt="${item.name}" class="testimonial-avatar" />
-        <div class="testimonial-info">
-          <h5>${item.name}</h5>
-          <p>${item.role} ${item.date ? `• ${item.date}` : ''}</p>
+        <div class="testimonial-user">
+          ${avatarHtml}
+          <div class="testimonial-info">
+            <h5>${item.name}</h5>
+            <p>${item.role} ${item.date ? `• ${item.date}` : ''}</p>
+          </div>
         </div>
       </div>
-    </div>
-  `).join('');
+    `;
+  }).join('');
 }
 
 // Render Contact Info
@@ -1224,6 +1231,23 @@ function setupEventListeners() {
 
   // Contact Form
   document.getElementById('contact-form')?.addEventListener('submit', handleContactFormSubmit);
+
+  // Footer Category Quick Filters
+  document.querySelectorAll('.footer-category-link').forEach(link => {
+    link.addEventListener('click', (e) => {
+      e.preventDefault();
+      const cat = link.getAttribute('data-category');
+      if (cat) {
+        window.UMKM_APP.selectedCategory = cat;
+        renderCategoryPills();
+        renderProductGrid();
+        const catalogSec = document.getElementById('katalog');
+        if (catalogSec) {
+          catalogSec.scrollIntoView({ behavior: 'smooth' });
+        }
+      }
+    });
+  });
 
   // Auto trigger Admin if URL has ?admin or #admin
   if (window.location.search.includes('admin') || window.location.hash === '#admin') {

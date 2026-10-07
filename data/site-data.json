@@ -18,10 +18,10 @@
       "tokopedia": "https://tokopedia.com"
     },
     "stats": [
-      { "number": "15.000+", "label": "Paket Terkirim" },
-      { "number": "100%", "label": "Bahan Alami & Halal" },
-      { "number": "4.9 / 5.0", "label": "Rating Kepuasan" },
-      { "number": "34 Provinsi", "label": "Jangkauan Kirim" }
+      { "number": "Kurasi Terpilih", "label": "Bahan Alami & Halal" },
+      { "number": "Kemasan Ekspedisi", "label": "Aman & Tahan Benturan" },
+      { "number": "Karya Pengrajin", "label": "Dukung Komunitas Lokal" },
+      { "number": "Pesan Langsung", "label": "Mudah via WhatsApp" }
     ],
     "highlights": [
       {
@@ -47,18 +47,16 @@
     ],
     "adminPinHash": "03ac674216f3e15c761ee1a5e255f067953623c8b388b4459e13f978d7c846f4",
     "hero": {
-      "badge1": "100% Karya Asli Nusantara",
-      "badge2": "Siap Kirim Hari Ini",
       "titlePart1": "Cita Rasa Otentik &",
-      "titlePart2": "Kreasi Terbaik Lokal"
+      "titlePart2": "Karya Pengrajin Nusantara"
     },
     "about": {
       "tag": "Tentang Kami",
       "title": "Menghubungkan Karya Pengrajin Daerah Langsung ke Tangan Anda",
       "paragraph1": "Berawal dari kepedulian terhadap potensi melimpah hasil bumi dan seni kriya tanah air, Nusantara Artisan hadir sebagai wadah kurasi produk-produk UMKM berkualitas unggul.",
       "paragraph2": "Kami memastikan setiap biji kopi disangrai dengan presisi, setiap camilan diproduksi secara higienis dengan bahan alami, serta setiap jahitan batik dan anyaman dibuat dengan ketelitian rasa seni tinggi.",
-      "statNumber": "10+ Tahun",
-      "statText": "Memberdayakan Komunitas Lokal",
+      "statNumber": "Kemitraan Perajin",
+      "statText": "Dukungan Karya Lokal Nusantara",
       "image": "https://images.unsplash.com/photo-1544816155-12df9643f363?auto=format&fit=crop&w=900&q=80",
       "features": [
         { "icon": "fa-solid fa-seedling", "title": "Bahan Alami Pilihan", "desc": "Tanpa bahan kimia berbahaya atau pengawet buatan." },
@@ -79,7 +77,7 @@
       ]
     },
     "promoBanner": {
-      "badge": "🎁 Layanan Khusus UMKM",
+      "badge": "Layanan Kustom & Hampers",
       "title": "Butuh Paket Hampers, Souvenir Acara, atau Pesanan Jumlah Banyak?",
       "desc": "Kami melayani kustomisasi paket bingkisan hari raya, souvenir pernikahan etnik, serta paket corporate gift kantor dengan harga spesial grosir dan packaging premium berlogo Anda.",
       "btnText": "Konsultasi Paket Custom",
@@ -262,30 +260,33 @@
   "testimonials": [
     {
       "id": "tst-01",
-      "name": "Budi Santoso",
-      "role": "Pecinta Kopi, Jakarta Selatan",
-      "avatar": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=200&q=80",
+      "name": "Budi S.",
+      "role": "Pesanan Kopi Arabika Gayo",
+      "avatar": "",
+      "initials": "BS",
       "rating": 5,
-      "comment": "Kopi Gayo-nya luar biasa segar! Aromanya semerbak waktu pertama kali diseduh V60. Pengiriman cepat dan pesan via WhatsApp tinggal klik langsung dilayani admin yang super ramah.",
-      "date": "2 hari yang lalu"
+      "comment": "Kopi Gayo-nya segar dan aromanya harum saat diseduh V60. Pengiriman aman dan komunikasi pemesanan via WhatsApp sangat ramah.",
+      "date": "Pelanggan Terverifikasi"
     },
     {
       "id": "tst-02",
-      "name": "Rina Wulandari",
-      "role": "Ibu Rumah Tangga, Surabaya",
-      "avatar": "https://images.unsplash.com/photo-1544005313-94ddf0286df2?auto=format&fit=crop&w=200&q=80",
+      "name": "Rina W.",
+      "role": "Pesanan Sambal Cumi & Keripik Tempe",
+      "avatar": "",
+      "initials": "RW",
       "rating": 5,
-      "comment": "Sambal cumi cabe ijonya juara banget! Cumina empuk dan melimpah, nggak pelit bumbu. Keripik tempenya juga renyah tahan lama. Sudah repeat order 3 kali.",
-      "date": "1 minggu yang lalu"
+      "comment": "Sambal cumi cabe ijonya lezat, potongan cumi empuk dan bumbunya pas. Keripik tempenya juga renyah sampai tujuan.",
+      "date": "Pelanggan Terverifikasi"
     },
     {
       "id": "tst-03",
-      "name": "Dimas Pratama",
-      "role": "Eksekutif Muda, Bandung",
-      "avatar": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=200&q=80",
+      "name": "Dimas P.",
+      "role": "Pesanan Kemeja Batik Kawung",
+      "avatar": "",
+      "initials": "DP",
       "rating": 5,
-      "comment": "Batik motif kawungnya adem banget dipakai seharian di kantor, potongannya pas di badan. Bangga banget dukung produk karya lokal dengan kualitas premium kayak gini.",
-      "date": "2 minggu yang lalu"
+      "comment": "Bahan katun batiknya halus dan sejuk dipakai kerja seharian, pola motif rapi. Bangga memakai karya perajin lokal nusantara.",
+      "date": "Pelanggan Terverifikasi"
     }
   ]
 }

@@ -1,4 +1,4 @@
-# 🌿 Nusantara Artisan & Co. — Website & Katalog Dinamis UMKM (Tanpa Database)
+# 🌿 Nusantara Artisan & Co.: Website & Katalog Dinamis UMKM (Tanpa Database)
 
 Website Company Profile dan Katalog Produk Interaktif untuk UMKM yang **100% Statis (Jamstack), Berjalan Tanpa Database Server**, dan **Siap Dipublish Gratis ke GitHub Pages**.
 

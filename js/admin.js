@@ -398,7 +398,7 @@ window.UMKM_ADMIN = {
 
     // 3. Promo Banner
     const pr = p.promoBanner || {};
-    setVal('adm-promo-badge', pr.badge || '🎁 Layanan Khusus UMKM');
+    setVal('adm-promo-badge', pr.badge || 'Layanan Kustom & Hampers');
     setVal('adm-promo-title', pr.title || 'Butuh Paket Hampers, Souvenir Acara, atau Pesanan Jumlah Banyak?');
     setVal('adm-promo-desc', pr.desc || '');
     setVal('adm-promo-btn-text', pr.btnText || 'Konsultasi Paket Custom');
@@ -409,7 +409,7 @@ window.UMKM_ADMIN = {
     setVal('adm-hero-badge1', hr.badge1 || '100% Karya Asli Nusantara');
     setVal('adm-hero-badge2', hr.badge2 || 'Siap Kirim Hari Ini');
     setVal('adm-hero-title1', hr.titlePart1 || 'Cita Rasa Otentik &');
-    setVal('adm-hero-title2', hr.titlePart2 || 'Kreasi Terbaik Lokal');
+    setVal('adm-hero-title2', hr.titlePart2 || 'Karya Pengrajin Nusantara');
 
     const st = p.stats || [];
     for (let i = 0; i < 4; i++) {
